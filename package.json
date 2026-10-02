@@ -1,0 +1,42 @@
+{
+  "name": "himnario-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Himnario Adventista Desktop: reproducción y proyección de himnos (Tauri 2 + React + Rust).",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:rust": "cargo test --manifest-path src-tauri/Cargo.toml",
+    "test:all": "npm run typecheck && npm test && npm run test:rust",
+    "content:build": "node tools/build-content.mjs",
+    "content:check": "node tools/check-content.mjs",
+    "backgrounds:generate": "sh tools/generate-backgrounds.sh",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "npm run content:check && tauri build --config src-tauri/tauri.bundle.conf.json",
+    "tauri:build:app": "tauri build --no-bundle",
+    "package:portable": "node tools/package-portable.mjs",
+    "tauri:build:windows": "PATH=\"/opt/homebrew/opt/llvm/bin:$PATH\" tauri build --no-bundle --runner cargo-xwin --target x86_64-pc-windows-msvc",
+    "package:portable:windows": "node tools/package-portable.mjs --target x86_64-pc-windows-msvc",
+    "backgrounds:import": "node tools/import-backgrounds.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/literata": "^5.3.0",
+    "@fontsource-variable/source-sans-3": "^5.3.0",
+    "@tauri-apps/api": "^2.11.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6",
+    "vitest": "^5.0.2"
+  }
+}

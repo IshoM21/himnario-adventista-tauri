@@ -1,0 +1,2163 @@
+{
+  "schemaVersion": 1,
+  "backgrounds": [
+    {
+      "id": "adoracion-y-alabanza--variante-01-organo-sencillo",
+      "name": "Variante 01 - Órgano sencillo",
+      "file": "adoracion-y-alabanza--variante-01-organo-sencillo.webp",
+      "thumb": "adoracion-y-alabanza--variante-01-organo-sencillo.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "adoracion-y-alabanza"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.01 - Adoración y alabanza - Variante 01 - Órgano sencillo.jpg"
+    },
+    {
+      "id": "adoracion-y-alabanza--variante-02-himnario-bajo-luz",
+      "name": "Variante 02 - Himnario bajo luz",
+      "file": "adoracion-y-alabanza--variante-02-himnario-bajo-luz.webp",
+      "thumb": "adoracion-y-alabanza--variante-02-himnario-bajo-luz.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "adoracion-y-alabanza"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.01 - Adoración y alabanza - Variante 02 - Himnario bajo luz.jpg"
+    },
+    {
+      "id": "adoracion-y-alabanza--variante-03-cielo-de-alabanza",
+      "name": "Variante 03 - Cielo de alabanza",
+      "file": "adoracion-y-alabanza--variante-03-cielo-de-alabanza.webp",
+      "thumb": "adoracion-y-alabanza--variante-03-cielo-de-alabanza.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "adoracion-y-alabanza"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.01 - Adoración y alabanza - Variante 03 - Cielo de alabanza.jpg"
+    },
+    {
+      "id": "alabanza-a-cristo--variante-01-himnario-y-biblia",
+      "name": "Variante 01 - Himnario y Biblia",
+      "file": "alabanza-a-cristo--variante-01-himnario-y-biblia.webp",
+      "thumb": "alabanza-a-cristo--variante-01-himnario-y-biblia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "alabanza-a-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.05 - Alabanza a Cristo - Variante 01 - Himnario y Biblia.jpg"
+    },
+    {
+      "id": "alabanza-a-cristo--variante-02-instrumento-discreto",
+      "name": "Variante 02 - Instrumento discreto",
+      "file": "alabanza-a-cristo--variante-02-instrumento-discreto.webp",
+      "thumb": "alabanza-a-cristo--variante-02-instrumento-discreto.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "alabanza-a-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.05 - Alabanza a Cristo - Variante 02 - Instrumento discreto.jpg"
+    },
+    {
+      "id": "alabanza-a-cristo--variante-03-libro-y-comunidad-lejana",
+      "name": "Variante 03 - Libro y comunidad lejana",
+      "file": "alabanza-a-cristo--variante-03-libro-y-comunidad-lejana.webp",
+      "thumb": "alabanza-a-cristo--variante-03-libro-y-comunidad-lejana.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "alabanza-a-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.05 - Alabanza a Cristo - Variante 03 - Libro y comunidad lejana.jpg"
+    },
+    {
+      "id": "amor-a-la-patria--variante-01-tela-cuidada",
+      "name": "Variante 01 - Tela cuidada",
+      "file": "amor-a-la-patria--variante-01-tela-cuidada.webp",
+      "thumb": "amor-a-la-patria--variante-01-tela-cuidada.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "amor-a-la-patria"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.12 - Amor a la patria - Variante 01 - Tela cuidada.jpg"
+    },
+    {
+      "id": "amor-a-la-patria--variante-02-plaza-tranquila",
+      "name": "Variante 02 - Plaza tranquila",
+      "file": "amor-a-la-patria--variante-02-plaza-tranquila.webp",
+      "thumb": "amor-a-la-patria--variante-02-plaza-tranquila.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "amor-a-la-patria"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.12 - Amor a la patria - Variante 02 - Plaza tranquila.jpg"
+    },
+    {
+      "id": "amor-a-la-patria--variante-03-arbol-comunitario",
+      "name": "Variante 03 - Árbol comunitario",
+      "file": "amor-a-la-patria--variante-03-arbol-comunitario.webp",
+      "thumb": "amor-a-la-patria--variante-03-arbol-comunitario.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "amor-a-la-patria"
+      },
+      "textColor": "#111111",
+      "source": "Fondos Completos/07.12 - Amor a la patria - Variante 03 - Árbol comunitario.jpg"
+    },
+    {
+      "id": "amor-de-cristo--variante-01-mano-que-levanta",
+      "name": "Variante 01 - Mano que levanta",
+      "file": "amor-de-cristo--variante-01-mano-que-levanta.webp",
+      "thumb": "amor-de-cristo--variante-01-mano-que-levanta.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "amor-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.04 - Amor de Cristo - Variante 01 - Mano que levanta.jpg"
+    },
+    {
+      "id": "amor-de-cristo--variante-02-agua-ofrecida",
+      "name": "Variante 02 - Agua ofrecida",
+      "file": "amor-de-cristo--variante-02-agua-ofrecida.webp",
+      "thumb": "amor-de-cristo--variante-02-agua-ofrecida.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "amor-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.04 - Amor de Cristo - Variante 02 - Agua ofrecida.jpg"
+    },
+    {
+      "id": "amor-de-cristo--variante-03-manto-sobre-hombros",
+      "name": "Variante 03 - Manto sobre hombros",
+      "file": "amor-de-cristo--variante-03-manto-sobre-hombros.webp",
+      "thumb": "amor-de-cristo--variante-03-manto-sobre-hombros.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "amor-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.04 - Amor de Cristo - Variante 03 - Manto sobre hombros.jpg"
+    },
+    {
+      "id": "amor-y-fidelidad-de-dios--variante-01-lampara-resguardada",
+      "name": "Variante 01 - Lámpara resguardada",
+      "file": "amor-y-fidelidad-de-dios--variante-01-lampara-resguardada.webp",
+      "thumb": "amor-y-fidelidad-de-dios--variante-01-lampara-resguardada.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "dios-el-padre",
+        "subsection": "amor-y-fidelidad-de-dios"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/02.01 - Amor y fidelidad de Dios - Variante 01 - Lámpara resguardada.jpg"
+    },
+    {
+      "id": "amor-y-fidelidad-de-dios--variante-02-nido-entre-ramas",
+      "name": "Variante 02 - Nido entre ramas",
+      "file": "amor-y-fidelidad-de-dios--variante-02-nido-entre-ramas.webp",
+      "thumb": "amor-y-fidelidad-de-dios--variante-02-nido-entre-ramas.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "dios-el-padre",
+        "subsection": "amor-y-fidelidad-de-dios"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/02.01 - Amor y fidelidad de Dios - Variante 02 - Nido entre ramas.jpg"
+    },
+    {
+      "id": "amor-y-fidelidad-de-dios--variante-03-olivo-resistente",
+      "name": "Variante 03 - Olivo resistente",
+      "file": "amor-y-fidelidad-de-dios--variante-03-olivo-resistente.webp",
+      "thumb": "amor-y-fidelidad-de-dios--variante-03-olivo-resistente.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "dios-el-padre",
+        "subsection": "amor-y-fidelidad-de-dios"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/02.01 - Amor y fidelidad de Dios - Variante 03 - Olivo resistente.jpg"
+    },
+    {
+      "id": "arrepentimiento--variante-01-silencio-en-el-banco",
+      "name": "Variante 01 - Silencio en el banco",
+      "file": "arrepentimiento--variante-01-silencio-en-el-banco.webp",
+      "thumb": "arrepentimiento--variante-01-silencio-en-el-banco.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "arrepentimiento"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.02 - Arrepentimiento - Variante 01 - Silencio en el banco.jpg"
+    },
+    {
+      "id": "arrepentimiento--variante-02-manos-junto-a-la-biblia",
+      "name": "Variante 02 - Manos junto a la Biblia",
+      "file": "arrepentimiento--variante-02-manos-junto-a-la-biblia.webp",
+      "thumb": "arrepentimiento--variante-02-manos-junto-a-la-biblia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "arrepentimiento"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.02 - Arrepentimiento - Variante 02 - Manos junto a la Biblia.jpg"
+    },
+    {
+      "id": "arrepentimiento--variante-03-camino-de-regreso",
+      "name": "Variante 03 - Camino de regreso",
+      "file": "arrepentimiento--variante-03-camino-de-regreso.webp",
+      "thumb": "arrepentimiento--variante-03-camino-de-regreso.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "arrepentimiento"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.02 - Arrepentimiento - Variante 03 - Camino de regreso.jpg"
+    },
+    {
+      "id": "bautismo--variante-01-despues-de-la-inmersion",
+      "name": "Variante 01 - Después de la inmersión",
+      "file": "bautismo--variante-01-despues-de-la-inmersion.webp",
+      "thumb": "bautismo--variante-01-despues-de-la-inmersion.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "bautismo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.05 - Bautismo - Variante 01 - Después de la inmersión.jpg"
+    },
+    {
+      "id": "bautismo--variante-02-entrando-al-agua",
+      "name": "Variante 02 - Entrando al agua",
+      "file": "bautismo--variante-02-entrando-al-agua.webp",
+      "thumb": "bautismo--variante-02-entrando-al-agua.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "bautismo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.05 - Bautismo - Variante 02 - Entrando al agua.jpg"
+    },
+    {
+      "id": "bautismo--variante-03-ondas-y-siluetas",
+      "name": "Variante 03 - Ondas y siluetas",
+      "file": "bautismo--variante-03-ondas-y-siluetas.webp",
+      "thumb": "bautismo--variante-03-ondas-y-siluetas.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "bautismo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.05 - Bautismo - Variante 03 - Ondas y siluetas.jpg"
+    },
+    {
+      "id": "boda--variante-01-manos-entrelazadas",
+      "name": "Variante 01 - Manos entrelazadas",
+      "file": "boda--variante-01-manos-entrelazadas.webp",
+      "thumb": "boda--variante-01-manos-entrelazadas.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "boda"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.01 - Boda - Variante 01 - Manos entrelazadas.jpg"
+    },
+    {
+      "id": "boda--variante-02-biblia-y-ramo",
+      "name": "Variante 02 - Biblia y ramo",
+      "file": "boda--variante-02-biblia-y-ramo.webp",
+      "thumb": "boda--variante-02-biblia-y-ramo.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "boda"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.01 - Boda - Variante 02 - Biblia y ramo.jpg"
+    },
+    {
+      "id": "boda--variante-03-ceremonia-sencilla",
+      "name": "Variante 03 - Ceremonia sencilla",
+      "file": "boda--variante-03-ceremonia-sencilla.webp",
+      "thumb": "boda--variante-03-ceremonia-sencilla.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "boda"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.01 - Boda - Variante 03 - Ceremonia sencilla.jpg"
+    },
+    {
+      "id": "cena-del-senor--variante-01-pan-y-copa",
+      "name": "Variante 01 - Pan y copa",
+      "file": "cena-del-senor--variante-01-pan-y-copa.webp",
+      "thumb": "cena-del-senor--variante-01-pan-y-copa.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "cena-del-senor"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.06 - Cena del Señor - Variante 01 - Pan y copa.jpg"
+    },
+    {
+      "id": "cena-del-senor--variante-02-emblemas-compartidos",
+      "name": "Variante 02 - Emblemas compartidos",
+      "file": "cena-del-senor--variante-02-emblemas-compartidos.webp",
+      "thumb": "cena-del-senor--variante-02-emblemas-compartidos.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "cena-del-senor"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.06 - Cena del Señor - Variante 02 - Emblemas compartidos.jpg"
+    },
+    {
+      "id": "cena-del-senor--variante-03-preparacion-del-lavamiento",
+      "name": "Variante 03 - Preparación del lavamiento",
+      "file": "cena-del-senor--variante-03-preparacion-del-lavamiento.webp",
+      "thumb": "cena-del-senor--variante-03-preparacion-del-lavamiento.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "cena-del-senor"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.06 - Cena del Señor - Variante 03 - Preparación del lavamiento.jpg"
+    },
+    {
+      "id": "cierre-del-culto--variante-01-puerta-al-atardecer",
+      "name": "Variante 01 - Puerta al atardecer",
+      "file": "cierre-del-culto--variante-01-puerta-al-atardecer.webp",
+      "thumb": "cierre-del-culto--variante-01-puerta-al-atardecer.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "cierre-del-culto"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.03 - Cierre del culto - Variante 01 - Puerta al atardecer.jpg"
+    },
+    {
+      "id": "cierre-del-culto--variante-02-himnarios-cerrados",
+      "name": "Variante 02 - Himnarios cerrados",
+      "file": "cierre-del-culto--variante-02-himnarios-cerrados.webp",
+      "thumb": "cierre-del-culto--variante-02-himnarios-cerrados.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "cierre-del-culto"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.03 - Cierre del culto - Variante 02 - Himnarios cerrados.jpg"
+    },
+    {
+      "id": "cierre-del-culto--variante-03-camino-de-salida",
+      "name": "Variante 03 - Camino de salida",
+      "file": "cierre-del-culto--variante-03-camino-de-salida.webp",
+      "thumb": "cierre-del-culto--variante-03-camino-de-salida.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "cierre-del-culto"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.03 - Cierre del culto - Variante 03 - Camino de salida.jpg"
+    },
+    {
+      "id": "confianza-y-seguridad--variante-01-luz-mientras-llueve",
+      "name": "Variante 01 - Luz mientras llueve",
+      "file": "confianza-y-seguridad--variante-01-luz-mientras-llueve.webp",
+      "thumb": "confianza-y-seguridad--variante-01-luz-mientras-llueve.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "confianza-y-seguridad"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.04 - Confianza y seguridad - Variante 01 - Luz mientras llueve.jpg"
+    },
+    {
+      "id": "confianza-y-seguridad--variante-02-refugio-ante-el-viento",
+      "name": "Variante 02 - Refugio ante el viento",
+      "file": "confianza-y-seguridad--variante-02-refugio-ante-el-viento.webp",
+      "thumb": "confianza-y-seguridad--variante-02-refugio-ante-el-viento.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "confianza-y-seguridad"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.04 - Confianza y seguridad - Variante 02 - Refugio ante el viento.jpg"
+    },
+    {
+      "id": "confianza-y-seguridad--variante-03-arbol-de-raices-firmes",
+      "name": "Variante 03 - Árbol de raíces firmes",
+      "file": "confianza-y-seguridad--variante-03-arbol-de-raices-firmes.webp",
+      "thumb": "confianza-y-seguridad--variante-03-arbol-de-raices-firmes.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "confianza-y-seguridad"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.04 - Confianza y seguridad - Variante 03 - Árbol de raíces firmes.jpg"
+    },
+    {
+      "id": "consagracion--variante-01-manos-abiertas",
+      "name": "Variante 01 - Manos abiertas",
+      "file": "consagracion--variante-01-manos-abiertas.webp",
+      "thumb": "consagracion--variante-01-manos-abiertas.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "consagracion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.03 - Consagración - Variante 01 - Manos abiertas.jpg"
+    },
+    {
+      "id": "consagracion--variante-02-objetos-preparados",
+      "name": "Variante 02 - Objetos preparados",
+      "file": "consagracion--variante-02-objetos-preparados.webp",
+      "thumb": "consagracion--variante-02-objetos-preparados.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "consagracion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.03 - Consagración - Variante 02 - Objetos preparados.jpg"
+    },
+    {
+      "id": "consagracion--variante-03-pausa-antes-de-servir",
+      "name": "Variante 03 - Pausa antes de servir",
+      "file": "consagracion--variante-03-pausa-antes-de-servir.webp",
+      "thumb": "consagracion--variante-03-pausa-antes-de-servir.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "consagracion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.03 - Consagración - Variante 03 - Pausa antes de servir.jpg"
+    },
+    {
+      "id": "culto-matutino--variante-01-biblia-junto-a-la-ventana",
+      "name": "Variante 01 - Biblia junto a la ventana",
+      "file": "culto-matutino--variante-01-biblia-junto-a-la-ventana.webp",
+      "thumb": "culto-matutino--variante-01-biblia-junto-a-la-ventana.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "culto-matutino"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.04 - Culto matutino - Variante 01 - Biblia junto a la ventana.jpg"
+    },
+    {
+      "id": "culto-matutino--variante-02-cuaderno-de-oracion",
+      "name": "Variante 02 - Cuaderno de oración",
+      "file": "culto-matutino--variante-02-cuaderno-de-oracion.webp",
+      "thumb": "culto-matutino--variante-02-cuaderno-de-oracion.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "culto-matutino"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.04 - Culto matutino - Variante 02 - Cuaderno de oración.jpg"
+    },
+    {
+      "id": "culto-matutino--variante-03-rocio-exterior",
+      "name": "Variante 03 - Rocío exterior",
+      "file": "culto-matutino--variante-03-rocio-exterior.webp",
+      "thumb": "culto-matutino--variante-03-rocio-exterior.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "culto-matutino"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.04 - Culto matutino - Variante 03 - Rocío exterior.jpg"
+    },
+    {
+      "id": "culto-vespertino--variante-01-biblia-y-lampara",
+      "name": "Variante 01 - Biblia y lámpara",
+      "file": "culto-vespertino--variante-01-biblia-y-lampara.webp",
+      "thumb": "culto-vespertino--variante-01-biblia-y-lampara.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "culto-vespertino"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.05 - Culto vespertino - Variante 01 - Biblia y lámpara.jpg"
+    },
+    {
+      "id": "culto-vespertino--variante-02-himnario-junto-a-la-noche",
+      "name": "Variante 02 - Himnario junto a la noche",
+      "file": "culto-vespertino--variante-02-himnario-junto-a-la-noche.webp",
+      "thumb": "culto-vespertino--variante-02-himnario-junto-a-la-noche.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "culto-vespertino"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.05 - Culto vespertino - Variante 02 - Himnario junto a la noche.jpg"
+    },
+    {
+      "id": "culto-vespertino--variante-03-candelero-pequeno",
+      "name": "Variante 03 - Candelero pequeño",
+      "file": "culto-vespertino--variante-03-candelero-pequeno.webp",
+      "thumb": "culto-vespertino--variante-03-candelero-pequeno.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "culto-vespertino"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.05 - Culto vespertino - Variante 03 - Candelero pequeño.jpg"
+    },
+    {
+      "id": "dedicacion-de-un-nino--variante-01-nino-en-brazos",
+      "name": "Variante 01 - Niño en brazos",
+      "file": "dedicacion-de-un-nino--variante-01-nino-en-brazos.webp",
+      "thumb": "dedicacion-de-un-nino--variante-01-nino-en-brazos.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "dedicacion-de-un-nino"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.03 - Dedicación de un niño - Variante 01 - Niño en brazos.jpg"
+    },
+    {
+      "id": "dedicacion-de-un-nino--variante-02-mantita-y-manos",
+      "name": "Variante 02 - Mantita y manos",
+      "file": "dedicacion-de-un-nino--variante-02-mantita-y-manos.webp",
+      "thumb": "dedicacion-de-un-nino--variante-02-mantita-y-manos.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "dedicacion-de-un-nino"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.03 - Dedicación de un niño - Variante 02 - Mantita y manos.jpg"
+    },
+    {
+      "id": "dedicacion-de-un-nino--variante-03-oracion-discreta",
+      "name": "Variante 03 - Oración discreta",
+      "file": "dedicacion-de-un-nino--variante-03-oracion-discreta.webp",
+      "thumb": "dedicacion-de-un-nino--variante-03-oracion-discreta.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "dedicacion-de-un-nino"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.03 - Dedicación de un niño - Variante 03 - Oración discreta.jpg"
+    },
+    {
+      "id": "dedicacion-de-un-templo--variante-01-puerta-y-llave",
+      "name": "Variante 01 - Puerta y llave",
+      "file": "dedicacion-de-un-templo--variante-01-puerta-y-llave.webp",
+      "thumb": "dedicacion-de-un-templo--variante-01-puerta-y-llave.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "dedicacion-de-un-templo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.07 - Dedicación de un templo - Variante 01 - Puerta y llave.jpg"
+    },
+    {
+      "id": "dedicacion-de-un-templo--variante-02-bancas-dispuestas",
+      "name": "Variante 02 - Bancas dispuestas",
+      "file": "dedicacion-de-un-templo--variante-02-bancas-dispuestas.webp",
+      "thumb": "dedicacion-de-un-templo--variante-02-bancas-dispuestas.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "dedicacion-de-un-templo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.07 - Dedicación de un templo - Variante 02 - Bancas dispuestas.jpg"
+    },
+    {
+      "id": "dedicacion-de-un-templo--variante-03-antes-de-la-primera-reunion",
+      "name": "Variante 03 - Antes de la primera reunión",
+      "file": "dedicacion-de-un-templo--variante-03-antes-de-la-primera-reunion.webp",
+      "thumb": "dedicacion-de-un-templo--variante-03-antes-de-la-primera-reunion.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "dedicacion-de-un-templo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.07 - Dedicación de un templo - Variante 03 - Antes de la primera reunión.jpg"
+    },
+    {
+      "id": "dios-el-padre--variante-01-macizo-rocoso",
+      "name": "Variante 01 - Macizo rocoso",
+      "file": "dios-el-padre--variante-01-macizo-rocoso.webp",
+      "thumb": "dios-el-padre--variante-01-macizo-rocoso.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "dios-el-padre",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/02 - Dios el Padre - Variante 01 - Macizo rocoso.jpg"
+    },
+    {
+      "id": "dios-el-padre--variante-02-oceano-de-gran-escala",
+      "name": "Variante 02 - Océano de gran escala",
+      "file": "dios-el-padre--variante-02-oceano-de-gran-escala.webp",
+      "thumb": "dios-el-padre--variante-02-oceano-de-gran-escala.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "dios-el-padre",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/02 - Dios el Padre - Variante 02 - Océano de gran escala.jpg"
+    },
+    {
+      "id": "dios-el-padre--variante-03-firmamento-sobre-meseta",
+      "name": "Variante 03 - Firmamento sobre meseta",
+      "file": "dios-el-padre--variante-03-firmamento-sobre-meseta.webp",
+      "thumb": "dios-el-padre--variante-03-firmamento-sobre-meseta.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "dios-el-padre",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/02 - Dios el Padre - Variante 03 - Firmamento sobre meseta.jpg"
+    },
+    {
+      "id": "direccion-divina--variante-01-brujula-y-biblia",
+      "name": "Variante 01 - Brújula y Biblia",
+      "file": "direccion-divina--variante-01-brujula-y-biblia.webp",
+      "thumb": "direccion-divina--variante-01-brujula-y-biblia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "direccion-divina"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.06 - Dirección divina - Variante 01 - Brújula y Biblia.jpg"
+    },
+    {
+      "id": "direccion-divina--variante-02-mapa-plegado",
+      "name": "Variante 02 - Mapa plegado",
+      "file": "direccion-divina--variante-02-mapa-plegado.webp",
+      "thumb": "direccion-divina--variante-02-mapa-plegado.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "direccion-divina"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.06 - Dirección divina - Variante 02 - Mapa plegado.jpg"
+    },
+    {
+      "id": "direccion-divina--variante-03-primer-tramo-iluminado",
+      "name": "Variante 03 - Primer tramo iluminado",
+      "file": "direccion-divina--variante-03-primer-tramo-iluminado.webp",
+      "thumb": "direccion-divina--variante-03-primer-tramo-iluminado.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "direccion-divina"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.06 - Dirección divina - Variante 03 - Primer tramo iluminado.jpg"
+    },
+    {
+      "id": "el-culto--variante-01-mar-antes-del-alba",
+      "name": "Variante 01 - Mar antes del alba",
+      "file": "el-culto--variante-01-mar-antes-del-alba.webp",
+      "thumb": "el-culto--variante-01-mar-antes-del-alba.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-culto",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01 - El culto - Variante 01 - Mar antes del alba.jpg"
+    },
+    {
+      "id": "el-culto--variante-02-claridad-alta",
+      "name": "Variante 02 - Claridad alta",
+      "file": "el-culto--variante-02-claridad-alta.webp",
+      "thumb": "el-culto--variante-02-claridad-alta.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-culto",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01 - El culto - Variante 02 - Claridad alta.jpg"
+    },
+    {
+      "id": "el-culto--variante-03-valle-en-silencio",
+      "name": "Variante 03 - Valle en silencio",
+      "file": "el-culto--variante-03-valle-en-silencio.webp",
+      "thumb": "el-culto--variante-03-valle-en-silencio.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-culto",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01 - El culto - Variante 03 - Valle en silencio.jpg"
+    },
+    {
+      "id": "el-espiritu-santo--variante-01-hojas-movidas",
+      "name": "Variante 01 - Hojas movidas",
+      "file": "el-espiritu-santo--variante-01-hojas-movidas.webp",
+      "thumb": "el-espiritu-santo--variante-01-hojas-movidas.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-espiritu-santo",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/04 - El Espíritu Santo - Variante 01 - Hojas movidas.jpg"
+    },
+    {
+      "id": "el-espiritu-santo--variante-02-cortina-ligera",
+      "name": "Variante 02 - Cortina ligera",
+      "file": "el-espiritu-santo--variante-02-cortina-ligera.webp",
+      "thumb": "el-espiritu-santo--variante-02-cortina-ligera.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-espiritu-santo",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/04 - El Espíritu Santo - Variante 02 - Cortina ligera.jpg"
+    },
+    {
+      "id": "el-espiritu-santo--variante-03-ondas-sobre-agua",
+      "name": "Variante 03 - Ondas sobre agua",
+      "file": "el-espiritu-santo--variante-03-ondas-sobre-agua.webp",
+      "thumb": "el-espiritu-santo--variante-03-ondas-sobre-agua.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-espiritu-santo",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/04 - El Espíritu Santo - Variante 03 - Ondas sobre agua.jpg"
+    },
+    {
+      "id": "el-espiritu-santo-general--variante-01-cortina-y-llama",
+      "name": "Variante 01 - Cortina y llama",
+      "file": "el-espiritu-santo-general--variante-01-cortina-y-llama.webp",
+      "thumb": "el-espiritu-santo-general--variante-01-cortina-y-llama.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-espiritu-santo",
+        "subsection": "el-espiritu-santo-general"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/04.01 - Espíritu Santo - Variante 01 - Cortina y llama.jpg"
+    },
+    {
+      "id": "el-espiritu-santo-general--variante-02-hojas-nuevas",
+      "name": "Variante 02 - Hojas nuevas",
+      "file": "el-espiritu-santo-general--variante-02-hojas-nuevas.webp",
+      "thumb": "el-espiritu-santo-general--variante-02-hojas-nuevas.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-espiritu-santo",
+        "subsection": "el-espiritu-santo-general"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/04.01 - Espíritu Santo - Variante 02 - Hojas nuevas.jpg"
+    },
+    {
+      "id": "el-espiritu-santo-general--variante-03-lampara-y-ramas",
+      "name": "Variante 03 - Lámpara y ramas",
+      "file": "el-espiritu-santo-general--variante-03-lampara-y-ramas.webp",
+      "thumb": "el-espiritu-santo-general--variante-03-lampara-y-ramas.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-espiritu-santo",
+        "subsection": "el-espiritu-santo-general"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/04.01 - Espíritu Santo - Variante 03 - Lámpara y ramas.jpg"
+    },
+    {
+      "id": "el-evangelio--variante-01-porton-de-jardin",
+      "name": "Variante 01 - Portón de jardín",
+      "file": "el-evangelio--variante-01-porton-de-jardin.webp",
+      "thumb": "el-evangelio--variante-01-porton-de-jardin.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-evangelio",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06 - El Evangelio - Variante 01 - Portón de jardín.jpg"
+    },
+    {
+      "id": "el-evangelio--variante-02-sendero-que-empieza",
+      "name": "Variante 02 - Sendero que empieza",
+      "file": "el-evangelio--variante-02-sendero-que-empieza.webp",
+      "thumb": "el-evangelio--variante-02-sendero-que-empieza.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-evangelio",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06 - El Evangelio - Variante 02 - Sendero que empieza.jpg"
+    },
+    {
+      "id": "el-evangelio--variante-03-umbral-cotidiano",
+      "name": "Variante 03 - Umbral cotidiano",
+      "file": "el-evangelio--variante-03-umbral-cotidiano.webp",
+      "thumb": "el-evangelio--variante-03-umbral-cotidiano.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-evangelio",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06 - El Evangelio - Variante 03 - Umbral cotidiano.jpg"
+    },
+    {
+      "id": "el-hogar-cristiano--variante-01-ventana-encendida",
+      "name": "Variante 01 - Ventana encendida",
+      "file": "el-hogar-cristiano--variante-01-ventana-encendida.webp",
+      "thumb": "el-hogar-cristiano--variante-01-ventana-encendida.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-hogar-cristiano",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09 - El hogar cristiano - Variante 01 - Ventana encendida.jpg"
+    },
+    {
+      "id": "el-hogar-cristiano--variante-02-porche-tranquilo",
+      "name": "Variante 02 - Porche tranquilo",
+      "file": "el-hogar-cristiano--variante-02-porche-tranquilo.webp",
+      "thumb": "el-hogar-cristiano--variante-02-porche-tranquilo.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-hogar-cristiano",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09 - El hogar cristiano - Variante 02 - Porche tranquilo.jpg"
+    },
+    {
+      "id": "el-hogar-cristiano--variante-03-mesa-domestica",
+      "name": "Variante 03 - Mesa doméstica",
+      "file": "el-hogar-cristiano--variante-03-mesa-domestica.webp",
+      "thumb": "el-hogar-cristiano--variante-03-mesa-domestica.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "el-hogar-cristiano",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09 - El hogar cristiano - Variante 03 - Mesa doméstica.jpg"
+    },
+    {
+      "id": "escuela-sabatica--variante-01-pasaje-compartido",
+      "name": "Variante 01 - Pasaje compartido",
+      "file": "escuela-sabatica--variante-01-pasaje-compartido.webp",
+      "thumb": "escuela-sabatica--variante-01-pasaje-compartido.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "escuela-sabatica"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.02 - Escuela Sabática - Variante 01 - Pasaje compartido.jpg"
+    },
+    {
+      "id": "escuela-sabatica--variante-02-mesa-de-estudio",
+      "name": "Variante 02 - Mesa de estudio",
+      "file": "escuela-sabatica--variante-02-mesa-de-estudio.webp",
+      "thumb": "escuela-sabatica--variante-02-mesa-de-estudio.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "escuela-sabatica"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.02 - Escuela Sabática - Variante 02 - Mesa de estudio.jpg"
+    },
+    {
+      "id": "escuela-sabatica--variante-03-conversacion-en-grupo",
+      "name": "Variante 03 - Conversación en grupo",
+      "file": "escuela-sabatica--variante-03-conversacion-en-grupo.webp",
+      "thumb": "escuela-sabatica--variante-03-conversacion-en-grupo.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "escuela-sabatica"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.02 - Escuela Sabática - Variante 03 - Conversación en grupo.jpg"
+    },
+    {
+      "id": "funeral--variante-01-flores-y-biblia",
+      "name": "Variante 01 - Flores y Biblia",
+      "file": "funeral--variante-01-flores-y-biblia.webp",
+      "thumb": "funeral--variante-01-flores-y-biblia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "funeral"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.08 - Funeral - Variante 01 - Flores y Biblia.jpg"
+    },
+    {
+      "id": "funeral--variante-02-silla-vacia",
+      "name": "Variante 02 - Silla vacía",
+      "file": "funeral--variante-02-silla-vacia.webp",
+      "thumb": "funeral--variante-02-silla-vacia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "funeral"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.08 - Funeral - Variante 02 - Silla vacía.jpg"
+    },
+    {
+      "id": "funeral--variante-03-ramo-junto-a-ventana",
+      "name": "Variante 03 - Ramo junto a ventana",
+      "file": "funeral--variante-03-ramo-junto-a-ventana.webp",
+      "thumb": "funeral--variante-03-ramo-junto-a-ventana.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "funeral"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.08 - Funeral - Variante 03 - Ramo junto a ventana.jpg"
+    },
+    {
+      "id": "general--valle-sereno",
+      "name": "Valle sereno",
+      "file": "general--valle-sereno.webp",
+      "thumb": "general--valle-sereno.thumb.webp",
+      "target": {
+        "level": "general",
+        "section": null,
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/00 - General - Valle sereno.jpg"
+    },
+    {
+      "id": "gozo-y-paz--variante-01-ventana-y-flores",
+      "name": "Variante 01 - Ventana y flores",
+      "file": "gozo-y-paz--variante-01-ventana-y-flores.webp",
+      "thumb": "gozo-y-paz--variante-01-ventana-y-flores.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "gozo-y-paz"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.01 - Gozo y paz - Variante 01 - Ventana y flores.jpg"
+    },
+    {
+      "id": "gozo-y-paz--variante-02-rincon-de-descanso",
+      "name": "Variante 02 - Rincón de descanso",
+      "file": "gozo-y-paz--variante-02-rincon-de-descanso.webp",
+      "thumb": "gozo-y-paz--variante-02-rincon-de-descanso.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "gozo-y-paz"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.01 - Gozo y paz - Variante 02 - Rincón de descanso.jpg"
+    },
+    {
+      "id": "gozo-y-paz--variante-03-jardin-visto-desde-casa",
+      "name": "Variante 03 - Jardín visto desde casa",
+      "file": "gozo-y-paz--variante-03-jardin-visto-desde-casa.webp",
+      "thumb": "gozo-y-paz--variante-03-jardin-visto-desde-casa.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "gozo-y-paz"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.01 - Gozo y paz - Variante 03 - Jardín visto desde casa.jpg"
+    },
+    {
+      "id": "gratitud--variante-01-cesta-modesta",
+      "name": "Variante 01 - Cesta modesta",
+      "file": "gratitud--variante-01-cesta-modesta.webp",
+      "thumb": "gratitud--variante-01-cesta-modesta.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "gratitud"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.02 - Gratitud - Variante 01 - Cesta modesta.jpg"
+    },
+    {
+      "id": "gratitud--variante-02-frutos-en-las-manos",
+      "name": "Variante 02 - Frutos en las manos",
+      "file": "gratitud--variante-02-frutos-en-las-manos.webp",
+      "thumb": "gratitud--variante-02-frutos-en-las-manos.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "gratitud"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.02 - Gratitud - Variante 02 - Frutos en las manos.jpg"
+    },
+    {
+      "id": "gratitud--variante-03-mesa-para-compartir",
+      "name": "Variante 03 - Mesa para compartir",
+      "file": "gratitud--variante-03-mesa-para-compartir.webp",
+      "thumb": "gratitud--variante-03-mesa-para-compartir.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "gratitud"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.02 - Gratitud - Variante 03 - Mesa para compartir.jpg"
+    },
+    {
+      "id": "hogar-celestial--variante-01-entrada-al-jardin",
+      "name": "Variante 01 - Entrada al jardín",
+      "file": "hogar-celestial--variante-01-entrada-al-jardin.webp",
+      "thumb": "hogar-celestial--variante-01-entrada-al-jardin.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "hogar-celestial"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.06 - Hogar celestial - Variante 01 - Entrada al jardín.jpg"
+    },
+    {
+      "id": "hogar-celestial--variante-02-hogar-distante",
+      "name": "Variante 02 - Hogar distante",
+      "file": "hogar-celestial--variante-02-hogar-distante.webp",
+      "thumb": "hogar-celestial--variante-02-hogar-distante.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "hogar-celestial"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.06 - Hogar celestial - Variante 02 - Hogar distante.jpg"
+    },
+    {
+      "id": "hogar-celestial--variante-03-patio-con-agua",
+      "name": "Variante 03 - Patio con agua",
+      "file": "hogar-celestial--variante-03-patio-con-agua.webp",
+      "thumb": "hogar-celestial--variante-03-patio-con-agua.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "hogar-celestial"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.06 - Hogar celestial - Variante 03 - Patio con agua.jpg"
+    },
+    {
+      "id": "hogar-cristiano--variante-01-biblia-en-familia",
+      "name": "Variante 01 - Biblia en familia",
+      "file": "hogar-cristiano--variante-01-biblia-en-familia.webp",
+      "thumb": "hogar-cristiano--variante-01-biblia-en-familia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "hogar-cristiano"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.02 - Hogar cristiano - Variante 01 - Biblia en familia.jpg"
+    },
+    {
+      "id": "hogar-cristiano--variante-02-lectura-antes-de-dormir",
+      "name": "Variante 02 - Lectura antes de dormir",
+      "file": "hogar-cristiano--variante-02-lectura-antes-de-dormir.webp",
+      "thumb": "hogar-cristiano--variante-02-lectura-antes-de-dormir.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "hogar-cristiano"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.02 - Hogar cristiano - Variante 02 - Lectura antes de dormir.jpg"
+    },
+    {
+      "id": "hogar-cristiano--variante-03-oracion-antes-de-comer",
+      "name": "Variante 03 - Oración antes de comer",
+      "file": "hogar-cristiano--variante-03-oracion-antes-de-comer.webp",
+      "thumb": "hogar-cristiano--variante-03-oracion-antes-de-comer.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "hogar-cristiano"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.02 - Hogar cristiano - Variante 03 - Oración antes de comer.jpg"
+    },
+    {
+      "id": "inicio-del-culto--variante-01-candelabro-sobrio",
+      "name": "Variante 01 - Candelabro sobrio",
+      "file": "inicio-del-culto--variante-01-candelabro-sobrio.webp",
+      "thumb": "inicio-del-culto--variante-01-candelabro-sobrio.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "inicio-del-culto"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.02 - Inicio del culto - Variante 01 - Candelabro sobrio.jpg"
+    },
+    {
+      "id": "inicio-del-culto--variante-02-libros-preparados",
+      "name": "Variante 02 - Libros preparados",
+      "file": "inicio-del-culto--variante-02-libros-preparados.webp",
+      "thumb": "inicio-del-culto--variante-02-libros-preparados.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "inicio-del-culto"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.02 - Inicio del culto - Variante 02 - Libros preparados.jpg"
+    },
+    {
+      "id": "inicio-del-culto--variante-03-luz-de-bienvenida",
+      "name": "Variante 03 - Luz de bienvenida",
+      "file": "inicio-del-culto--variante-03-luz-de-bienvenida.webp",
+      "thumb": "inicio-del-culto--variante-03-luz-de-bienvenida.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-culto",
+        "subsection": "inicio-del-culto"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/01.02 - Inicio del culto - Variante 03 - Luz de bienvenida.jpg"
+    },
+    {
+      "id": "invitacion--variante-01-puerta-entreabierta",
+      "name": "Variante 01 - Puerta entreabierta",
+      "file": "invitacion--variante-01-puerta-entreabierta.webp",
+      "thumb": "invitacion--variante-01-puerta-entreabierta.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "invitacion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.01 - Invitación - Variante 01 - Puerta entreabierta.jpg"
+    },
+    {
+      "id": "invitacion--variante-02-sendero-accesible",
+      "name": "Variante 02 - Sendero accesible",
+      "file": "invitacion--variante-02-sendero-accesible.webp",
+      "thumb": "invitacion--variante-02-sendero-accesible.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "invitacion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.01 - Invitación - Variante 02 - Sendero accesible.jpg"
+    },
+    {
+      "id": "invitacion--variante-03-porton-acogedor",
+      "name": "Variante 03 - Portón acogedor",
+      "file": "invitacion--variante-03-porton-acogedor.webp",
+      "thumb": "invitacion--variante-03-porton-acogedor.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "invitacion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.01 - Invitación - Variante 03 - Portón acogedor.jpg"
+    },
+    {
+      "id": "jesucristo--variante-01-sendero-de-judea",
+      "name": "Variante 01 - Sendero de Judea",
+      "file": "jesucristo--variante-01-sendero-de-judea.webp",
+      "thumb": "jesucristo--variante-01-sendero-de-judea.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "jesucristo",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03 - Jesucristo - Variante 01 - Sendero de Judea.jpg"
+    },
+    {
+      "id": "jesucristo--variante-02-orilla-de-galilea",
+      "name": "Variante 02 - Orilla de Galilea",
+      "file": "jesucristo--variante-02-orilla-de-galilea.webp",
+      "thumb": "jesucristo--variante-02-orilla-de-galilea.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "jesucristo",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03 - Jesucristo - Variante 02 - Orilla de Galilea.jpg"
+    },
+    {
+      "id": "jesucristo--variante-03-lino-y-camino",
+      "name": "Variante 03 - Lino y camino",
+      "file": "jesucristo--variante-03-lino-y-camino.webp",
+      "thumb": "jesucristo--variante-03-lino-y-camino.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "jesucristo",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03 - Jesucristo - Variante 03 - Lino y camino.jpg"
+    },
+    {
+      "id": "jovenes--variante-01-preparar-el-servicio",
+      "name": "Variante 01 - Preparar el servicio",
+      "file": "jovenes--variante-01-preparar-el-servicio.webp",
+      "thumb": "jovenes--variante-01-preparar-el-servicio.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "jovenes"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.05 - Jóvenes - Variante 01 - Preparar el servicio.jpg"
+    },
+    {
+      "id": "jovenes--variante-02-camino-a-la-comunidad",
+      "name": "Variante 02 - Camino a la comunidad",
+      "file": "jovenes--variante-02-camino-a-la-comunidad.webp",
+      "thumb": "jovenes--variante-02-camino-a-la-comunidad.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "jovenes"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.05 - Jóvenes - Variante 02 - Camino a la comunidad.jpg"
+    },
+    {
+      "id": "jovenes--variante-03-estudio-entre-amigos",
+      "name": "Variante 03 - Estudio entre amigos",
+      "file": "jovenes--variante-03-estudio-entre-amigos.webp",
+      "thumb": "jovenes--variante-03-estudio-entre-amigos.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "jovenes"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.05 - Jóvenes - Variante 03 - Estudio entre amigos.jpg"
+    },
+    {
+      "id": "juicio--variante-01-registro-y-balanza",
+      "name": "Variante 01 - Registro y balanza",
+      "file": "juicio--variante-01-registro-y-balanza.webp",
+      "thumb": "juicio--variante-01-registro-y-balanza.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "juicio"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.05 - Juicio - Variante 01 - Registro y balanza.jpg"
+    },
+    {
+      "id": "juicio--variante-02-paginas-bajo-luz",
+      "name": "Variante 02 - Páginas bajo luz",
+      "file": "juicio--variante-02-paginas-bajo-luz.webp",
+      "thumb": "juicio--variante-02-paginas-bajo-luz.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "juicio"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.05 - Juicio - Variante 02 - Páginas bajo luz.jpg"
+    },
+    {
+      "id": "juicio--variante-03-balanza-y-libro-cerrado",
+      "name": "Variante 03 - Balanza y libro cerrado",
+      "file": "juicio--variante-03-balanza-y-libro-cerrado.webp",
+      "thumb": "juicio--variante-03-balanza-y-libro-cerrado.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "juicio"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.05 - Juicio - Variante 03 - Balanza y libro cerrado.jpg"
+    },
+    {
+      "id": "la-iglesia--variante-01-iglesia-entre-arboles",
+      "name": "Variante 01 - Iglesia entre árboles",
+      "file": "la-iglesia--variante-01-iglesia-entre-arboles.webp",
+      "thumb": "la-iglesia--variante-01-iglesia-entre-arboles.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "la-iglesia",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08 - La Iglesia - Variante 01 - Iglesia entre árboles.jpg"
+    },
+    {
+      "id": "la-iglesia--variante-02-puerta-iluminada",
+      "name": "Variante 02 - Puerta iluminada",
+      "file": "la-iglesia--variante-02-puerta-iluminada.webp",
+      "thumb": "la-iglesia--variante-02-puerta-iluminada.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "la-iglesia",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08 - La Iglesia - Variante 02 - Puerta iluminada.jpg"
+    },
+    {
+      "id": "la-iglesia--variante-03-bancas-preparadas",
+      "name": "Variante 03 - Bancas preparadas",
+      "file": "la-iglesia--variante-03-bancas-preparadas.webp",
+      "thumb": "la-iglesia--variante-03-bancas-preparadas.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "la-iglesia",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08 - La Iglesia - Variante 03 - Bancas preparadas.jpg"
+    },
+    {
+      "id": "la-iglesia-general--variante-01-manos-alrededor-de-la-biblia",
+      "name": "Variante 01 - Manos alrededor de la Biblia",
+      "file": "la-iglesia-general--variante-01-manos-alrededor-de-la-biblia.webp",
+      "thumb": "la-iglesia-general--variante-01-manos-alrededor-de-la-biblia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "la-iglesia-general"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.01 - La Iglesia - Variante 01 - Manos alrededor de la Biblia.jpg"
+    },
+    {
+      "id": "la-iglesia-general--variante-02-saludo-fraterno",
+      "name": "Variante 02 - Saludo fraterno",
+      "file": "la-iglesia-general--variante-02-saludo-fraterno.webp",
+      "thumb": "la-iglesia-general--variante-02-saludo-fraterno.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "la-iglesia-general"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.01 - La Iglesia - Variante 02 - Saludo fraterno.jpg"
+    },
+    {
+      "id": "la-iglesia-general--variante-03-oracion-compartida",
+      "name": "Variante 03 - Oración compartida",
+      "file": "la-iglesia-general--variante-03-oracion-compartida.webp",
+      "thumb": "la-iglesia-general--variante-03-oracion-compartida.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "la-iglesia-general"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.01 - La Iglesia - Variante 03 - Oración compartida.jpg"
+    },
+    {
+      "id": "la-vida-cristiana--variante-01-arbol-y-arroyo",
+      "name": "Variante 01 - Árbol y arroyo",
+      "file": "la-vida-cristiana--variante-01-arbol-y-arroyo.webp",
+      "thumb": "la-vida-cristiana--variante-01-arbol-y-arroyo.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "la-vida-cristiana",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07 - La vida cristiana - Variante 01 - Árbol y arroyo.jpg"
+    },
+    {
+      "id": "la-vida-cristiana--variante-02-brote-entre-piedras",
+      "name": "Variante 02 - Brote entre piedras",
+      "file": "la-vida-cristiana--variante-02-brote-entre-piedras.webp",
+      "thumb": "la-vida-cristiana--variante-02-brote-entre-piedras.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "la-vida-cristiana",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07 - La vida cristiana - Variante 02 - Brote entre piedras.jpg"
+    },
+    {
+      "id": "la-vida-cristiana--variante-03-camino-discreto",
+      "name": "Variante 03 - Camino discreto",
+      "file": "la-vida-cristiana--variante-03-camino-discreto.webp",
+      "thumb": "la-vida-cristiana--variante-03-camino-discreto.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "la-vida-cristiana",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07 - La vida cristiana - Variante 03 - Camino discreto.jpg"
+    },
+    {
+      "id": "las-sagradas-escrituras--variante-01-biblia-sobre-pizarra",
+      "name": "Variante 01 - Biblia sobre pizarra",
+      "file": "las-sagradas-escrituras--variante-01-biblia-sobre-pizarra.webp",
+      "thumb": "las-sagradas-escrituras--variante-01-biblia-sobre-pizarra.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "las-sagradas-escrituras",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/05 - Las Sagradas Escrituras - Variante 01 - Biblia sobre pizarra.jpg"
+    },
+    {
+      "id": "las-sagradas-escrituras--variante-02-libro-bajo-luz-natural",
+      "name": "Variante 02 - Libro bajo luz natural",
+      "file": "las-sagradas-escrituras--variante-02-libro-bajo-luz-natural.webp",
+      "thumb": "las-sagradas-escrituras--variante-02-libro-bajo-luz-natural.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "las-sagradas-escrituras",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/05 - Las Sagradas Escrituras - Variante 02 - Libro bajo luz natural.jpg"
+    },
+    {
+      "id": "las-sagradas-escrituras--variante-03-cinta-marcadora",
+      "name": "Variante 03 - Cinta marcadora",
+      "file": "las-sagradas-escrituras--variante-03-cinta-marcadora.webp",
+      "thumb": "las-sagradas-escrituras--variante-03-cinta-marcadora.thumb.webp",
+      "target": {
+        "level": "section",
+        "section": "las-sagradas-escrituras",
+        "subsection": null
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/05 - Las Sagradas Escrituras - Variante 03 - Cinta marcadora.jpg"
+    },
+    {
+      "id": "las-sagradas-escrituras-general--variante-01-biblia-bajo-lampara",
+      "name": "Variante 01 - Biblia bajo lámpara",
+      "file": "las-sagradas-escrituras-general--variante-01-biblia-bajo-lampara.webp",
+      "thumb": "las-sagradas-escrituras-general--variante-01-biblia-bajo-lampara.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "las-sagradas-escrituras",
+        "subsection": "las-sagradas-escrituras-general"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/05.01 - Sagradas Escrituras - Variante 01 - Biblia bajo lámpara.jpg"
+    },
+    {
+      "id": "las-sagradas-escrituras-general--variante-02-paginas-usadas",
+      "name": "Variante 02 - Páginas usadas",
+      "file": "las-sagradas-escrituras-general--variante-02-paginas-usadas.webp",
+      "thumb": "las-sagradas-escrituras-general--variante-02-paginas-usadas.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "las-sagradas-escrituras",
+        "subsection": "las-sagradas-escrituras-general"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/05.01 - Sagradas Escrituras - Variante 02 - Páginas usadas.jpg"
+    },
+    {
+      "id": "las-sagradas-escrituras-general--variante-03-biblia-junto-a-ventana",
+      "name": "Variante 03 - Biblia junto a ventana",
+      "file": "las-sagradas-escrituras-general--variante-03-biblia-junto-a-ventana.webp",
+      "thumb": "las-sagradas-escrituras-general--variante-03-biblia-junto-a-ventana.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "las-sagradas-escrituras",
+        "subsection": "las-sagradas-escrituras-general"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/05.01 - Sagradas Escrituras - Variante 03 - Biblia junto a ventana.jpg"
+    },
+    {
+      "id": "lucha-contra-el-mal--variante-01-escudo-y-biblia",
+      "name": "Variante 01 - Escudo y Biblia",
+      "file": "lucha-contra-el-mal--variante-01-escudo-y-biblia.webp",
+      "thumb": "lucha-contra-el-mal--variante-01-escudo-y-biblia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "lucha-contra-el-mal"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.10 - Lucha contra el mal - Variante 01 - Escudo y Biblia.jpg"
+    },
+    {
+      "id": "lucha-contra-el-mal--variante-02-coraza-en-reposo",
+      "name": "Variante 02 - Coraza en reposo",
+      "file": "lucha-contra-el-mal--variante-02-coraza-en-reposo.webp",
+      "thumb": "lucha-contra-el-mal--variante-02-coraza-en-reposo.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "lucha-contra-el-mal"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.10 - Lucha contra el mal - Variante 02 - Coraza en reposo.jpg"
+    },
+    {
+      "id": "lucha-contra-el-mal--variante-03-sendero-que-se-despeja",
+      "name": "Variante 03 - Sendero que se despeja",
+      "file": "lucha-contra-el-mal--variante-03-sendero-que-se-despeja.webp",
+      "thumb": "lucha-contra-el-mal--variante-03-sendero-que-se-despeja.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "lucha-contra-el-mal"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.10 - Lucha contra el mal - Variante 03 - Sendero que se despeja.jpg"
+    },
+    {
+      "id": "majestad-y-poder-de-dios--variante-01-acantilados",
+      "name": "Variante 01 - Acantilados",
+      "file": "majestad-y-poder-de-dios--variante-01-acantilados.webp",
+      "thumb": "majestad-y-poder-de-dios--variante-01-acantilados.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "dios-el-padre",
+        "subsection": "majestad-y-poder-de-dios"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/02.02 - Majestad y poder de Dios - Variante 01 - Acantilados.jpg"
+    },
+    {
+      "id": "majestad-y-poder-de-dios--variante-02-mar-bajo-nubes-altas",
+      "name": "Variante 02 - Mar bajo nubes altas",
+      "file": "majestad-y-poder-de-dios--variante-02-mar-bajo-nubes-altas.webp",
+      "thumb": "majestad-y-poder-de-dios--variante-02-mar-bajo-nubes-altas.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "dios-el-padre",
+        "subsection": "majestad-y-poder-de-dios"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/02.02 - Majestad y poder de Dios - Variante 02 - Mar bajo nubes altas.jpg"
+    },
+    {
+      "id": "majestad-y-poder-de-dios--variante-03-cordillera-distante",
+      "name": "Variante 03 - Cordillera distante",
+      "file": "majestad-y-poder-de-dios--variante-03-cordillera-distante.webp",
+      "thumb": "majestad-y-poder-de-dios--variante-03-cordillera-distante.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "dios-el-padre",
+        "subsection": "majestad-y-poder-de-dios"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/02.02 - Majestad y poder de Dios - Variante 03 - Cordillera distante.jpg"
+    },
+    {
+      "id": "mayordomia--variante-01-siembra",
+      "name": "Variante 01 - Siembra",
+      "file": "mayordomia--variante-01-siembra.webp",
+      "thumb": "mayordomia--variante-01-siembra.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "mayordomia"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.11 - Mayordomía - Variante 01 - Siembra.jpg"
+    },
+    {
+      "id": "mayordomia--variante-02-riego-paciente",
+      "name": "Variante 02 - Riego paciente",
+      "file": "mayordomia--variante-02-riego-paciente.webp",
+      "thumb": "mayordomia--variante-02-riego-paciente.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "mayordomia"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.11 - Mayordomía - Variante 02 - Riego paciente.jpg"
+    },
+    {
+      "id": "mayordomia--variante-03-cosecha-sin-desperdicio",
+      "name": "Variante 03 - Cosecha sin desperdicio",
+      "file": "mayordomia--variante-03-cosecha-sin-desperdicio.webp",
+      "thumb": "mayordomia--variante-03-cosecha-sin-desperdicio.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "mayordomia"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.11 - Mayordomía - Variante 03 - Cosecha sin desperdicio.jpg"
+    },
+    {
+      "id": "mision-de-la-iglesia--variante-01-biblia-entregada",
+      "name": "Variante 01 - Biblia entregada",
+      "file": "mision-de-la-iglesia--variante-01-biblia-entregada.webp",
+      "thumb": "mision-de-la-iglesia--variante-01-biblia-entregada.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "mision-de-la-iglesia"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.04 - Misión de la Iglesia - Variante 01 - Biblia entregada.jpg"
+    },
+    {
+      "id": "mision-de-la-iglesia--variante-02-conversacion-en-el-patio",
+      "name": "Variante 02 - Conversación en el patio",
+      "file": "mision-de-la-iglesia--variante-02-conversacion-en-el-patio.webp",
+      "thumb": "mision-de-la-iglesia--variante-02-conversacion-en-el-patio.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "mision-de-la-iglesia"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.04 - Misión de la Iglesia - Variante 02 - Conversación en el patio.jpg"
+    },
+    {
+      "id": "mision-de-la-iglesia--variante-03-preparados-para-salir",
+      "name": "Variante 03 - Preparados para salir",
+      "file": "mision-de-la-iglesia--variante-03-preparados-para-salir.webp",
+      "thumb": "mision-de-la-iglesia--variante-03-preparados-para-salir.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "mision-de-la-iglesia"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.04 - Misión de la Iglesia - Variante 03 - Preparados para salir.jpg"
+    },
+    {
+      "id": "muerte-de-cristo--variante-01-corona-y-clavos",
+      "name": "Variante 01 - Corona y clavos",
+      "file": "muerte-de-cristo--variante-01-corona-y-clavos.webp",
+      "thumb": "muerte-de-cristo--variante-01-corona-y-clavos.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "muerte-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.02 - Muerte de Cristo - Variante 01 - Corona y clavos.jpg"
+    },
+    {
+      "id": "muerte-de-cristo--variante-02-madero-y-tela",
+      "name": "Variante 02 - Madero y tela",
+      "file": "muerte-de-cristo--variante-02-madero-y-tela.webp",
+      "thumb": "muerte-de-cristo--variante-02-madero-y-tela.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "muerte-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.02 - Muerte de Cristo - Variante 02 - Madero y tela.jpg"
+    },
+    {
+      "id": "muerte-de-cristo--variante-03-colina-distante",
+      "name": "Variante 03 - Colina distante",
+      "file": "muerte-de-cristo--variante-03-colina-distante.webp",
+      "thumb": "muerte-de-cristo--variante-03-colina-distante.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "muerte-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.02 - Muerte de Cristo - Variante 03 - Colina distante.jpg"
+    },
+    {
+      "id": "nacimiento-de-cristo--variante-01-pesebre-humilde",
+      "name": "Variante 01 - Pesebre humilde",
+      "file": "nacimiento-de-cristo--variante-01-pesebre-humilde.webp",
+      "thumb": "nacimiento-de-cristo--variante-01-pesebre-humilde.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "nacimiento-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.01 - Nacimiento de Cristo - Variante 01 - Pesebre humilde.jpg"
+    },
+    {
+      "id": "nacimiento-de-cristo--variante-02-estrella-por-la-abertura",
+      "name": "Variante 02 - Estrella por la abertura",
+      "file": "nacimiento-de-cristo--variante-02-estrella-por-la-abertura.webp",
+      "thumb": "nacimiento-de-cristo--variante-02-estrella-por-la-abertura.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "nacimiento-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.01 - Nacimiento de Cristo - Variante 02 - Estrella por la abertura.jpg"
+    },
+    {
+      "id": "nacimiento-de-cristo--variante-03-lampara-junto-al-pesebre",
+      "name": "Variante 03 - Lámpara junto al pesebre",
+      "file": "nacimiento-de-cristo--variante-03-lampara-junto-al-pesebre.webp",
+      "thumb": "nacimiento-de-cristo--variante-03-lampara-junto-al-pesebre.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "nacimiento-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.01 - Nacimiento de Cristo - Variante 03 - Lámpara junto al pesebre.jpg"
+    },
+    {
+      "id": "ninos--variante-01-historia-biblica",
+      "name": "Variante 01 - Historia bíblica",
+      "file": "ninos--variante-01-historia-biblica.webp",
+      "thumb": "ninos--variante-01-historia-biblica.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "ninos"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.04 - Niños - Variante 01 - Historia bíblica.jpg"
+    },
+    {
+      "id": "ninos--variante-02-libro-ilustrado",
+      "name": "Variante 02 - Libro ilustrado",
+      "file": "ninos--variante-02-libro-ilustrado.webp",
+      "thumb": "ninos--variante-02-libro-ilustrado.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "ninos"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.04 - Niños - Variante 02 - Libro ilustrado.jpg"
+    },
+    {
+      "id": "ninos--variante-03-aprender-en-el-jardin",
+      "name": "Variante 03 - Aprender en el jardín",
+      "file": "ninos--variante-03-aprender-en-el-jardin.webp",
+      "thumb": "ninos--variante-03-aprender-en-el-jardin.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-hogar-cristiano",
+        "subsection": "ninos"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/09.04 - Niños - Variante 03 - Aprender en el jardín.jpg"
+    },
+    {
+      "id": "obediencia--variante-01-mano-sobre-la-biblia",
+      "name": "Variante 01 - Mano sobre la Biblia",
+      "file": "obediencia--variante-01-mano-sobre-la-biblia.webp",
+      "thumb": "obediencia--variante-01-mano-sobre-la-biblia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "obediencia"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.08 - Obediencia - Variante 01 - Mano sobre la Biblia.jpg"
+    },
+    {
+      "id": "obediencia--variante-02-primer-paso",
+      "name": "Variante 02 - Primer paso",
+      "file": "obediencia--variante-02-primer-paso.webp",
+      "thumb": "obediencia--variante-02-primer-paso.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "obediencia"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.08 - Obediencia - Variante 02 - Primer paso.jpg"
+    },
+    {
+      "id": "obediencia--variante-03-listo-para-actuar",
+      "name": "Variante 03 - Listo para actuar",
+      "file": "obediencia--variante-03-listo-para-actuar.webp",
+      "thumb": "obediencia--variante-03-listo-para-actuar.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "obediencia"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.08 - Obediencia - Variante 03 - Listo para actuar.jpg"
+    },
+    {
+      "id": "oracion-y-comunion--variante-01-junto-a-la-silla",
+      "name": "Variante 01 - Junto a la silla",
+      "file": "oracion-y-comunion--variante-01-junto-a-la-silla.webp",
+      "thumb": "oracion-y-comunion--variante-01-junto-a-la-silla.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "oracion-y-comunion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.03 - Oración y comunión - Variante 01 - Junto a la silla.jpg"
+    },
+    {
+      "id": "oracion-y-comunion--variante-02-manos-en-la-mesa",
+      "name": "Variante 02 - Manos en la mesa",
+      "file": "oracion-y-comunion--variante-02-manos-en-la-mesa.webp",
+      "thumb": "oracion-y-comunion--variante-02-manos-en-la-mesa.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "oracion-y-comunion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.03 - Oración y comunión - Variante 02 - Manos en la mesa.jpg"
+    },
+    {
+      "id": "oracion-y-comunion--variante-03-ventana-en-silencio",
+      "name": "Variante 03 - Ventana en silencio",
+      "file": "oracion-y-comunion--variante-03-ventana-en-silencio.webp",
+      "thumb": "oracion-y-comunion--variante-03-ventana-en-silencio.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "oracion-y-comunion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.03 - Oración y comunión - Variante 03 - Ventana en silencio.jpg"
+    },
+    {
+      "id": "peregrinacion--variante-01-sandalias-y-baston",
+      "name": "Variante 01 - Sandalias y bastón",
+      "file": "peregrinacion--variante-01-sandalias-y-baston.webp",
+      "thumb": "peregrinacion--variante-01-sandalias-y-baston.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "peregrinacion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.07 - Peregrinación - Variante 01 - Sandalias y bastón.jpg"
+    },
+    {
+      "id": "peregrinacion--variante-02-caminante-distante",
+      "name": "Variante 02 - Caminante distante",
+      "file": "peregrinacion--variante-02-caminante-distante.webp",
+      "thumb": "peregrinacion--variante-02-caminante-distante.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "peregrinacion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.07 - Peregrinación - Variante 02 - Caminante distante.jpg"
+    },
+    {
+      "id": "peregrinacion--variante-03-pausa-en-el-camino",
+      "name": "Variante 03 - Pausa en el camino",
+      "file": "peregrinacion--variante-03-pausa-en-el-camino.webp",
+      "thumb": "peregrinacion--variante-03-pausa-en-el-camino.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "peregrinacion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.07 - Peregrinación - Variante 03 - Pausa en el camino.jpg"
+    },
+    {
+      "id": "peticion-y-anhelo--variante-01-manos-junto-a-la-ventana",
+      "name": "Variante 01 - Manos junto a la ventana",
+      "file": "peticion-y-anhelo--variante-01-manos-junto-a-la-ventana.webp",
+      "thumb": "peticion-y-anhelo--variante-01-manos-junto-a-la-ventana.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "peticion-y-anhelo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.05 - Petición y anhelo - Variante 01 - Manos junto a la ventana.jpg"
+    },
+    {
+      "id": "peticion-y-anhelo--variante-02-primer-azul-del-dia",
+      "name": "Variante 02 - Primer azul del día",
+      "file": "peticion-y-anhelo--variante-02-primer-azul-del-dia.webp",
+      "thumb": "peticion-y-anhelo--variante-02-primer-azul-del-dia.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "peticion-y-anhelo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.05 - Petición y anhelo - Variante 02 - Primer azul del día.jpg"
+    },
+    {
+      "id": "peticion-y-anhelo--variante-03-luz-durante-la-espera",
+      "name": "Variante 03 - Luz durante la espera",
+      "file": "peticion-y-anhelo--variante-03-luz-durante-la-espera.webp",
+      "thumb": "peticion-y-anhelo--variante-03-luz-durante-la-espera.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "peticion-y-anhelo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.05 - Petición y anhelo - Variante 03 - Luz durante la espera.jpg"
+    },
+    {
+      "id": "resurreccion-de-cristo--variante-01-piedra-removida",
+      "name": "Variante 01 - Piedra removida",
+      "file": "resurreccion-de-cristo--variante-01-piedra-removida.webp",
+      "thumb": "resurreccion-de-cristo--variante-01-piedra-removida.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "resurreccion-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.03 - Resurrección de Cristo - Variante 01 - Piedra removida.jpg"
+    },
+    {
+      "id": "resurreccion-de-cristo--variante-02-lienzos-abandonados",
+      "name": "Variante 02 - Lienzos abandonados",
+      "file": "resurreccion-de-cristo--variante-02-lienzos-abandonados.webp",
+      "thumb": "resurreccion-de-cristo--variante-02-lienzos-abandonados.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "resurreccion-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.03 - Resurrección de Cristo - Variante 02 - Lienzos abandonados.jpg"
+    },
+    {
+      "id": "resurreccion-de-cristo--variante-03-entrada-desde-el-jardin",
+      "name": "Variante 03 - Entrada desde el jardín",
+      "file": "resurreccion-de-cristo--variante-03-entrada-desde-el-jardin.webp",
+      "thumb": "resurreccion-de-cristo--variante-03-entrada-desde-el-jardin.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "resurreccion-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.03 - Resurrección de Cristo - Variante 03 - Entrada desde el jardín.jpg"
+    },
+    {
+      "id": "sabado--variante-01-familia-en-la-terraza",
+      "name": "Variante 01 - Familia en la terraza",
+      "file": "sabado--variante-01-familia-en-la-terraza.webp",
+      "thumb": "sabado--variante-01-familia-en-la-terraza.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "sabado"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.03 - Sábado - Variante 01 - Familia en la terraza.jpg"
+    },
+    {
+      "id": "sabado--variante-02-paseo-tranquilo",
+      "name": "Variante 02 - Paseo tranquilo",
+      "file": "sabado--variante-02-paseo-tranquilo.webp",
+      "thumb": "sabado--variante-02-paseo-tranquilo.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "sabado"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.03 - Sábado - Variante 02 - Paseo tranquilo.jpg"
+    },
+    {
+      "id": "sabado--variante-03-mesa-en-reposo",
+      "name": "Variante 03 - Mesa en reposo",
+      "file": "sabado--variante-03-mesa-en-reposo.webp",
+      "thumb": "sabado--variante-03-mesa-en-reposo.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-iglesia",
+        "subsection": "sabado"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/08.03 - Sábado - Variante 03 - Mesa en reposo.jpg"
+    },
+    {
+      "id": "salvacion-y-redencion--variante-01-cadena-abierta",
+      "name": "Variante 01 - Cadena abierta",
+      "file": "salvacion-y-redencion--variante-01-cadena-abierta.webp",
+      "thumb": "salvacion-y-redencion--variante-01-cadena-abierta.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "salvacion-y-redencion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.04 - Salvación y redención - Variante 01 - Cadena abierta.jpg"
+    },
+    {
+      "id": "salvacion-y-redencion--variante-02-cuerda-desatada",
+      "name": "Variante 02 - Cuerda desatada",
+      "file": "salvacion-y-redencion--variante-02-cuerda-desatada.webp",
+      "thumb": "salvacion-y-redencion--variante-02-cuerda-desatada.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "salvacion-y-redencion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.04 - Salvación y redención - Variante 02 - Cuerda desatada.jpg"
+    },
+    {
+      "id": "salvacion-y-redencion--variante-03-grilletes-vacios",
+      "name": "Variante 03 - Grilletes vacíos",
+      "file": "salvacion-y-redencion--variante-03-grilletes-vacios.webp",
+      "thumb": "salvacion-y-redencion--variante-03-grilletes-vacios.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "el-evangelio",
+        "subsection": "salvacion-y-redencion"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/06.04 - Salvación y redención - Variante 03 - Grilletes vacíos.jpg"
+    },
+    {
+      "id": "segunda-venida-de-cristo--variante-01-mirada-al-horizonte",
+      "name": "Variante 01 - Mirada al horizonte",
+      "file": "segunda-venida-de-cristo--variante-01-mirada-al-horizonte.webp",
+      "thumb": "segunda-venida-de-cristo--variante-01-mirada-al-horizonte.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "segunda-venida-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.06 - Segunda venida de Cristo - Variante 01 - Mirada al horizonte.jpg"
+    },
+    {
+      "id": "segunda-venida-de-cristo--variante-02-apertura-entre-nubes",
+      "name": "Variante 02 - Apertura entre nubes",
+      "file": "segunda-venida-de-cristo--variante-02-apertura-entre-nubes.webp",
+      "thumb": "segunda-venida-de-cristo--variante-02-apertura-entre-nubes.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "segunda-venida-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.06 - Segunda venida de Cristo - Variante 02 - Apertura entre nubes.jpg"
+    },
+    {
+      "id": "segunda-venida-de-cristo--variante-03-colina-bajo-claridad",
+      "name": "Variante 03 - Colina bajo claridad",
+      "file": "segunda-venida-de-cristo--variante-03-colina-bajo-claridad.webp",
+      "thumb": "segunda-venida-de-cristo--variante-03-colina-bajo-claridad.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "jesucristo",
+        "subsection": "segunda-venida-de-cristo"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/03.06 - Segunda venida de Cristo - Variante 03 - Colina bajo claridad.jpg"
+    },
+    {
+      "id": "servicio-cristiano--variante-01-alimentos-compartidos",
+      "name": "Variante 01 - Alimentos compartidos",
+      "file": "servicio-cristiano--variante-01-alimentos-compartidos.webp",
+      "thumb": "servicio-cristiano--variante-01-alimentos-compartidos.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "servicio-cristiano"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.09 - Servicio cristiano - Variante 01 - Alimentos compartidos.jpg"
+    },
+    {
+      "id": "servicio-cristiano--variante-02-reparacion",
+      "name": "Variante 02 - Reparación",
+      "file": "servicio-cristiano--variante-02-reparacion.webp",
+      "thumb": "servicio-cristiano--variante-02-reparacion.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "servicio-cristiano"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.09 - Servicio cristiano - Variante 02 - Reparación.jpg"
+    },
+    {
+      "id": "servicio-cristiano--variante-03-acompanamiento",
+      "name": "Variante 03 - Acompañamiento",
+      "file": "servicio-cristiano--variante-03-acompanamiento.webp",
+      "thumb": "servicio-cristiano--variante-03-acompanamiento.thumb.webp",
+      "target": {
+        "level": "subsection",
+        "section": "la-vida-cristiana",
+        "subsection": "servicio-cristiano"
+      },
+      "textColor": "#ffffff",
+      "source": "Fondos Completos/07.09 - Servicio cristiano - Variante 03 - Acompañamiento.jpg"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+/* Escenario de proyección: fondo + letra. Compartido por la ventana de
+   proyección y las vistas previas. Sin transiciones en el negro. */
+
+.projection-root {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+.projection-root--no-cursor,
+.projection-root--no-cursor * {
+  cursor: none;
+}
+
+.stage {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background: #000;
+  contain: strict;
+}
+
+.stage__background,
+.stage__overlay,
+.stage__black {
+  position: absolute;
+  inset: 0;
+}
+
+.stage__overlay {
+  background: #000;
+}
+
+.stage__black {
+  z-index: 5;
+  background: #000;
+}
+
+.stage__black[hidden] {
+  display: none;
+}
+
+.stage__area {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage__text {
+  flex: none;
+  width: max-content;
+  max-width: none;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+  animation: stage-in 160ms ease-out;
+}
+
+.stage__text[data-wrap="true"] {
+  width: 100%;
+  white-space: normal;
+  text-wrap: balance;
+}
+
+.stage__text--left {
+  align-self: center;
+}
+
+.stage__lines {
+  display: flex;
+  flex-direction: column;
+}
+
+.stage__line {
+  display: block;
+}
+
+.stage__text--center .stage__lines {
+  align-items: center;
+}
+
+.stage__text--left .stage__lines {
+  align-items: flex-start;
+}
+
+.stage__number {
+  font-size: 0.62em;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+  margin-bottom: 0.25em;
+}
+
+.stage__caption {
+  font-size: 0.45em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+  margin-top: 0.8em;
+}
+
+.stage__caption--top {
+  margin-top: 0;
+  margin-bottom: 0.35em;
+}
+
+.stage__text--title .stage__lines {
+  font-weight: inherit;
+}
+
+@keyframes stage-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Vista previa escalada */
+.scaled-stage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #000;
+}
+
+.scaled-stage__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+}
+
+/* Medidor oculto: todas las láminas del himno, para calcular un tamaño común. */
+.stage__measure {
+  position: absolute;
+  inset: 0;
+  visibility: hidden;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.stage__measure > .stage__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: none;
+}
+
+/* Número de estrofa en una esquina del área segura (no forma parte del bloque). */
+.stage__corner {
+  position: absolute;
+  z-index: 2;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+  white-space: nowrap;
+}

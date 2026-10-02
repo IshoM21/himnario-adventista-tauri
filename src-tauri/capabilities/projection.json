@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "projection-drag",
+  "description": "La ventana de proyección no tiene bordes: permite arrastrarla cuando no está en pantalla completa.",
+  "windows": ["projection"],
+  "permissions": ["core:window:allow-start-dragging"]
+}

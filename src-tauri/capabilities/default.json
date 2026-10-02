@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Permisos mínimos: eventos y lectura de ventanas del núcleo. Todo el control de audio, contenido y proyección pasa por comandos propios de Rust.",
+  "windows": ["operator", "projection"],
+  "permissions": ["core:default"]
+}
