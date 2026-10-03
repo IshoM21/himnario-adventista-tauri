@@ -4,8 +4,7 @@ Aplicación de escritorio para reproducir los himnos con audio **cantado** o
 **instrumental** y proyectar la letra sincronizada en una segunda pantalla.
 Funciona sin Internet en Windows, Linux y macOS.
 
-No es un reproductor de videos: los 613 MKV originales solo fueron la fuente de
-la migración. La aplicación usa **audio + letra + tiempos + metadatos** y dibuja
+No es un reproductor de videos. La aplicación usa **audio + letra + tiempos + metadatos** y dibuja
 la proyección en tiempo real.
 
 ```text
