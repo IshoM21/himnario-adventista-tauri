@@ -1,0 +1,10 @@
+# Saltos de línea LF en todos los sistemas: en Windows, CRLF rompe los
+# scripts con "#!/usr/bin/env node" al importarlos desde las pruebas.
+* text=auto eol=lf
+
+*.png binary
+*.webp binary
+*.jpg binary
+*.ico binary
+*.icns binary
+*.woff2 binary
