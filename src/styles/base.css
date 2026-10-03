@@ -480,3 +480,17 @@ select {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Cambio de tema (lib/theme.ts → switchTheme): el tema nuevo entra con un
+   círculo; se quita el fundido que el navegador aplica por defecto. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+:root[data-theme-switching] *,
+:root[data-theme-switching] *::before,
+:root[data-theme-switching] *::after {
+  transition: none !important;
+}

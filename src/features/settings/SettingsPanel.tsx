@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { t } from "../../i18n";
+import { centerOf, switchTheme } from "../../lib/theme";
 import { ipc } from "../../lib/ipc";
 import { getState, run, useAppStore } from "../../stores/appStore";
 import type { AppearanceSettings, CatalogSummary, Hymn, PlaybackState, Settings } from "../../types/domain";
@@ -229,7 +230,10 @@ export function SettingsPanel({ catalog, section, onClose }: SettingsPanelProps)
                     role="radio"
                     aria-checked={draft.theme === theme}
                     className={`segmented__option${draft.theme === theme ? " is-active" : ""}`}
-                    onClick={() => update((s) => ({ ...s, theme }))}
+                    onClick={(event) => {
+                      switchTheme(theme, centerOf(event.currentTarget));
+                      update((s) => ({ ...s, theme }));
+                    }}
                   >
                     {theme === "dark" ? t("themeDark") : t("themeLight")}
                   </button>
