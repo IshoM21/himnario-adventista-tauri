@@ -43,6 +43,8 @@ Marcar en cada sistema operativo y con el proyector real:
 - [ ] "Recuperar ventana" desde cualquier estado.
 - [ ] Cambiar resolución del proyector: la letra se reacomoda sin cortarse.
 - [ ] Ajustes de texto y fondo: se ven en vivo en la vista previa y en la proyección.
+- [ ] Primera apertura en una laptop de 1366×768 (Windows 10 y 11): la ventana (1280×680; compacta 430×680) se ve completa, sin quedar bajo la barra de tareas. Con escala 125 %: la vista completa abre maximizada.
+- [ ] Tamaño guardado en un monitor grande y abrir en la laptop: la ventana se reduce al área útil.
 - [ ] Reiniciar la app: volumen, pista predeterminada, monitor (presenta solo), fondo y tamaño/posición de ventana restaurados; ningún himno suena.
 - [ ] Dañar `settings.json` a mano: la app abre con valores predeterminados y avisa.
 - [ ] Renombrar un audio de un himno: el himno abre, la pista aparece deshabilitada.
