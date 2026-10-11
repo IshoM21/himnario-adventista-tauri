@@ -123,7 +123,7 @@ fn setup(app: &mut tauri::App) -> Result<(), Box<dyn std::error::Error>> {
     } else {
         Default::default()
     };
-    let backend = RodioBackend::new();
+    let backend = RodioBackend::new(loaded.settings.audio.output.clone());
     let mut session = Session::new(backend, content_root.clone(), loaded.settings.audio.volume);
     // Pista inicial de la sesión; luego la elección del operador es "pegajosa".
     session.set_selected_track(loaded.settings.audio.preferred_track());
@@ -198,6 +198,8 @@ pub fn run() {
         .on_window_event(on_window_event)
         .invoke_handler(tauri::generate_handler![
             commands::app::get_bootstrap,
+            commands::audio::list_audio_devices,
+            commands::audio::test_audio_output,
             commands::app::log_frontend,
             commands::content::get_catalog,
             commands::content::get_hymn,

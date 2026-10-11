@@ -47,4 +47,21 @@ Marcar en cada sistema operativo y con el proyector real:
 - [ ] Dañar `settings.json` a mano: la app abre con valores predeterminados y avisa.
 - [ ] Renombrar un audio de un himno: el himno abre, la pista aparece deshabilitada.
 - [ ] Desconectar los altavoces/USB durante la reproducción: aviso y recuperación automática.
+
+### Salida de audio (Windows, con mezcladora USB y proyector HDMI)
+
+Durante todas estas pruebas, revisar las líneas `[AUDIO]` del log: deben
+decir qué se intentó abrir y por qué.
+
+- [ ] Configuración → Audio lista las salidas (Realtek, mezcladora, HDMI del proyector) y la predeterminada del sistema.
+- [ ] Elegir la mezcladora con Windows en Realtek: suena por la mezcladora; aparece "Sonando por: …".
+- [ ] "Probar salida" con el himno detenido: suena el tono por la mezcladora. Con un himno sonando, el botón está deshabilitado.
+- [ ] Con la mezcladora fija, cambiar la predeterminada de Windows: el Himnario sigue en la mezcladora.
+- [ ] Con la mezcladora fija, conectar y desconectar el proyector HDMI (y cambiar duplicar/extender): sigue en la mezcladora.
+- [ ] Desconectar la mezcladora USB sonando: silencio y aviso "Sin audio: la salida «…» no está disponible". **No** debe sonar por la laptop ni el proyector.
+- [ ] Reconectarla: en 2–3 s vuelve a sonar por la mezcladora, en el mismo tiempo del himno.
+- [ ] Reconectarla en **otro puerto USB**: la reencuentra por nombre; el log dice "cambió de identificador".
+- [ ] Abrir la app con la mezcladora desconectada: aviso con su nombre y botón "Elegir salida"; al conectarla, se usa sola.
+- [ ] Modo "Predeterminada del sistema": cambiar la predeterminada de Windows con un himno sonando; en ~2 s pasa a la nueva salida conservando el tiempo.
+- [ ] Revisar en Configuración → Sistema → Sonido → Mezclador de volumen que el Himnario no tenga una salida asignada por Windows.
 - [ ] Sin Internet: todo lo anterior funciona.

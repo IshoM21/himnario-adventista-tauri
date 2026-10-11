@@ -67,7 +67,7 @@ export function CompactView({ browser, cues, onOpenSettings, onExpand }: Compact
       </header>
 
       <div className="compact__notices">
-        <Notices />
+        <Notices onOpenAudio={() => onOpenSettings("audio")} />
         <CueBanner />
       </div>
 

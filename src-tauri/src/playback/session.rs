@@ -2,7 +2,7 @@
 //! Las ventanas de React solo envían órdenes y reciben instantáneas.
 
 use super::slides::{display_slide, seconds_to_next_change};
-use crate::audio::AudioBackend;
+use crate::audio::{AudioBackend, OutputDevice, OutputPreference};
 use crate::content::{Hymn, TrackKind};
 use crate::error::{AppError, AppResult};
 use serde::Serialize;
@@ -63,6 +63,10 @@ pub struct PlaybackSnapshot {
     pub lyrics_hidden: bool,
     pub cue: Option<HymnRef>,
     pub audio_output: bool,
+    /// Dispositivo por el que se reproduce ahora.
+    pub audio_device: Option<String>,
+    /// Salida configurada que no está disponible (sin audio hasta que vuelva).
+    pub audio_missing: Option<String>,
     /// Mensaje del último problema no fatal (p. ej. una pista dañada).
     pub notice: Option<String>,
     /// Pista elegida para los himnos que se pongan al aire.
@@ -82,6 +86,8 @@ impl PlaybackSnapshot {
             && self.presentation == other.presentation
             && self.cue == other.cue
             && self.audio_output == other.audio_output
+            && self.audio_device == other.audio_device
+            && self.audio_missing == other.audio_missing
             && self.notice == other.notice
             && self.selected_track == other.selected_track
     }
@@ -503,25 +509,53 @@ impl<B: AudioBackend> Session<B> {
         seconds_to_next_change(&hymn.slides, self.position())
     }
 
-    pub fn try_recover_output(&mut self) -> bool {
+    /// Revisión periódica de la salida (recuperación y, en modo sistema,
+    /// cambios del predeterminado). La pista sigue en el mismo tiempo.
+    pub fn maintain_output(&mut self) -> bool {
         let position = self.position();
         let playing = self.status == Status::Playing;
-        let recovered = self.backend.recover(position, playing);
-        if recovered {
-            self.backend.set_volume(self.volume);
-            if self.status == Status::Ended {
-                self.status = Status::Stopped;
-            }
+        let changed = self.backend.maintain(position, playing);
+        if changed {
+            self.after_output_change();
         }
-        recovered
+        changed
     }
 
-    pub fn output_available(&self) -> bool {
-        self.backend.output_available()
+    /// Salida elegida en Configuración → Audio. Se aplica al instante sobre
+    /// el mismo motor de audio, conservando el tiempo de lo que suena.
+    pub fn set_output(&mut self, preference: OutputPreference) -> bool {
+        let position = self.position();
+        let playing = self.status == Status::Playing;
+        let opened = self.backend.set_output(preference, position, playing);
+        if opened {
+            self.after_output_change();
+        }
+        opened
+    }
+
+    fn after_output_change(&mut self) {
+        self.backend.set_volume(self.volume);
+        if self.status == Status::Ended {
+            self.status = Status::Stopped;
+        }
+    }
+
+    pub fn take_output_rebind(&mut self) -> Option<OutputDevice> {
+        self.backend.take_rebind()
+    }
+
+    /// "Probar salida": solo con el himno detenido, para no sonar encima de
+    /// un canto en pleno culto.
+    pub fn test_output(&mut self) -> AppResult<()> {
+        if self.status == Status::Playing {
+            return Err(AppError::audio("Pause o detenga el himno para probar la salida"));
+        }
+        self.backend.test_tone().map_err(AppError::audio)
     }
 
     pub fn snapshot(&self) -> PlaybackSnapshot {
         let position = self.position();
+        let output = self.backend.output_status();
         let (hymn, track, tracks, duration, current_slide, next_slide) = match &self.on_air {
             Some(on_air) => {
                 let slides = &on_air.hymn.slides;
@@ -577,6 +611,8 @@ impl<B: AudioBackend> Session<B> {
             lyrics_hidden: self.lyrics_hidden,
             cue: self.cue.as_deref().map(hymn_ref),
             audio_output: self.backend.output_available(),
+            audio_device: output.active,
+            audio_missing: output.missing,
             notice: self.notice.clone(),
             selected_track: self.selected_track,
         }
@@ -873,6 +909,32 @@ mod tests {
         session.play_now(first).unwrap();
         assert_eq!(session.snapshot().status, Status::Playing);
         assert_eq!(session.snapshot().position, 0.0);
+    }
+
+    #[test]
+    fn output_change_keeps_the_same_engine_and_hymn() {
+        let mut session = session();
+        session.play_now(hymn("001", Some(118.84), Some(119.064))).unwrap();
+        session.backend_mut().advance(20.0);
+        let usb = OutputPreference::Device { id: "wasapi:{usb}".into(), name: "USB Audio CODEC".into() };
+        assert!(session.set_output(usb.clone()));
+        assert_eq!(session.backend_mut().output, Some(usb));
+        let snapshot = session.snapshot();
+        assert_eq!(snapshot.status, Status::Playing);
+        assert!((snapshot.position - 20.0).abs() < 1e-9);
+        assert_eq!(snapshot.audio_device.as_deref(), Some("Simulada"));
+        assert_eq!(snapshot.audio_missing, None);
+    }
+
+    #[test]
+    fn output_test_only_while_not_playing() {
+        let mut session = session();
+        session.test_output().unwrap();
+        session.play_now(hymn("001", Some(118.84), Some(119.064))).unwrap();
+        assert_eq!(session.test_output().unwrap_err().code, "AUDIO");
+        session.pause();
+        session.test_output().unwrap();
+        assert_eq!(session.backend_mut().tones, 2);
     }
 
     #[test]

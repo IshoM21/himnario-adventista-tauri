@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { t } from "../../i18n";
 import { centerOf, switchTheme } from "../../lib/theme";
+import { AudioOutputSettings } from "./AudioOutputSettings";
 import { ipc } from "../../lib/ipc";
 import { getState, run, useAppStore } from "../../stores/appStore";
 import type { AppearanceSettings, CatalogSummary, Hymn, PlaybackState, Settings } from "../../types/domain";
@@ -46,6 +47,8 @@ const SAMPLE_PLAYBACK: PlaybackState = {
   lyricsHidden: false,
   cue: null,
   audioOutput: true,
+  audioDevice: null,
+  audioMissing: null,
   notice: null,
   selectedTrack: "vocal",
 };
@@ -129,7 +132,7 @@ export function SettingsPanel({ catalog, section, onClose }: SettingsPanelProps)
       appearance: edited.appearance,
       theme: edited.theme,
       ui: { ...latest.ui, alwaysOnTopCompact: edited.ui.alwaysOnTopCompact },
-      audio: { ...latest.audio, defaultTrack: edited.audio.defaultTrack },
+      audio: { ...latest.audio, defaultTrack: edited.audio.defaultTrack, output: edited.audio.output },
       projection: { ...latest.projection, presentOnStart: edited.projection.presentOnStart },
     };
     void run(() => ipc.updateSettings(payload));
@@ -339,6 +342,10 @@ export function SettingsPanel({ catalog, section, onClose }: SettingsPanelProps)
 
           <section id="settings-audio">
             <h3>{t("sectionAudio")}</h3>
+            <AudioOutputSettings
+              value={draft.audio.output}
+              onChange={(output) => update((s) => ({ ...s, audio: { ...s.audio, output } }))}
+            />
             <Field label={t("defaultTrack")}>
               <select
                 value={draft.audio.defaultTrack}

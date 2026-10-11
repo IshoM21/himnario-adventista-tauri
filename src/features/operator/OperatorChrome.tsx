@@ -24,15 +24,25 @@ export function Toasts() {
   );
 }
 
-export function Notices() {
+export function Notices({ onOpenAudio }: { onOpenAudio?: () => void }) {
   const notice = useAppStore((s) => s.playback?.notice ?? null);
   const audioOutput = useAppStore((s) => s.playback?.audioOutput ?? true);
+  const audioMissing = useAppStore((s) => s.playback?.audioMissing ?? null);
   const sameMonitor = useAppStore((s) => s.projection?.sharesOperatorMonitor && s.projection.presenting);
   const warnings = useAppStore((s) => s.warnings);
   const [hiddenWarnings, setHiddenWarnings] = useState(false);
   return (
     <>
-      {!audioOutput ? <div className="banner banner--error">{t("noAudioOutput")}</div> : null}
+      {!audioOutput ? (
+        <div className="banner banner--error">
+          <span>{audioMissing ? t("audioMissing", { device: audioMissing }) : t("noAudioOutput")}</span>
+          {onOpenAudio ? (
+            <button type="button" className="button" onClick={onOpenAudio}>
+              {t("audioChooseOutput")}
+            </button>
+          ) : null}
+        </div>
+      ) : null}
       {notice ? (
         <div className="banner banner--warning">
           <span>{notice}</span>

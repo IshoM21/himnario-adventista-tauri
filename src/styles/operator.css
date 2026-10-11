@@ -1575,3 +1575,31 @@
   bottom: calc(100% + 0.4rem);
   transform-origin: bottom right;
 }
+
+/* ─── Configuración → Audio: salida ─────────────────────────── */
+.audio-output {
+  display: grid;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.audio-output__status {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.audio-output__status:empty {
+  display: none;
+}
+
+.audio-output__status.is-missing {
+  color: var(--danger-text);
+  font-weight: 600;
+}
+
+.audio-output__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

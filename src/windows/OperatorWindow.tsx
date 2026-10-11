@@ -155,7 +155,7 @@ export function OperatorWindow() {
 
       <main className="main">
         <div className="main__scroll">
-          <Notices />
+          <Notices onOpenAudio={() => openSettings("audio")} />
           <StagePanel catalog={catalog} />
         </div>
         <TransportBar cues={cues} onOpenSettings={openSettings} />

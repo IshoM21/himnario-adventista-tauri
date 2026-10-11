@@ -2,6 +2,7 @@
 
 import { invoke } from "@tauri-apps/api/core";
 import type {
+  AudioDevices,
   AppError,
   Bootstrap,
   CatalogSummary,
@@ -58,6 +59,8 @@ export const ipc = {
 
   visuals: () => invoke<Visuals>("get_visuals"),
   monitors: () => invoke<MonitorList>("list_monitors"),
+  audioDevices: () => invoke<AudioDevices>("list_audio_devices"),
+  testAudioOutput: () => invoke<void>("test_audio_output"),
   projectionStatus: () => invoke<ProjectionStatus>("get_projection_status"),
   present: (monitorId: string) => invoke<ProjectionStatus>("present_projection", { monitorId }),
   exitPresentation: () => invoke<ProjectionStatus>("exit_presentation"),

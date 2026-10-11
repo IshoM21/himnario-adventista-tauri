@@ -32,6 +32,13 @@ content/                catálogo, 613 documentos hymn.json y 1226 pistas de aud
 | 0–9, `/`, Ctrl/Cmd + K | Buscar |
 | Esc | Salir del buscador o de pantalla completa |
 
+**Salida de audio:** en Configuración → Audio se elige por dónde suena el
+Himnario: la predeterminada del sistema o un dispositivo fijo (p. ej. la
+mezcladora), independiente del que tenga Windows. Con un dispositivo fijo, el
+Himnario lo usa siempre, aunque Windows cambie su predeterminada o se conecte un
+proyector; si se desconecta, avisa y espera a que vuelva, sin pasar a otra
+salida. **Probar salida** suena un tono corto (con el himno detenido).
+
 El tema de la ventana del operador (oscuro o claro) se cambia con el botón
 ☀/☾ de la barra superior o en Configuración → Interfaz. No sigue al tema del
 sistema y no afecta a la proyección.
@@ -166,7 +173,8 @@ Formato: [docs/content-format.md](docs/content-format.md).
 | Síntoma | Qué hacer |
 |---|---|
 | "No se encontró el contenido" | Falta `content/` junto al ejecutable o en los recursos. En desarrollo: `npm run content:build`. |
-| "No hay salida de audio" | Revisar altavoces/dispositivo predeterminado; la app reintenta cada 3 s sola. |
+| "Sin audio: la salida «…» no está disponible" | La salida elegida en Configuración → Audio no está conectada. La app nunca cambia sola a otra salida (laptop, proyector): reintenta cada 2 s y vuelve a sonar al reconectarla. **Elegir salida** permite usar otra. |
+| Suena por el proyector o la laptop | En Configuración → Audio elegir la mezcladora/bocinas como salida fija; el Himnario la usará aunque Windows cambie la predeterminada. Revisar también el Mezclador de volumen de Windows. |
 | La proyección no aparece | **Recuperar ventana**. Luego elegir el monitor y **Presentar**. |
 | La letra no coincide con el Instrumental | Algunas pistas instrumentales tienen otro arreglo (aviso "Duraciones diferentes" en el himno). |
 | Configuración rara | Configuración → Información → Restablecer. Si el archivo se daña, la app lo respalda y usa valores predeterminados. |

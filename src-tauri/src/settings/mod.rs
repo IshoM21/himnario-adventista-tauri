@@ -2,6 +2,7 @@
 //! de configuración de la app). Escritura atómica, valores por defecto para
 //! cualquier campo ausente y respaldo automático si el archivo está dañado.
 
+use crate::audio::OutputPreference;
 use crate::content::TrackKind;
 use crate::error::{AppError, AppResult};
 use serde::{Deserialize, Serialize};
@@ -30,6 +31,8 @@ pub struct AudioSettings {
     pub volume: f32,
     pub default_track: DefaultTrack,
     pub last_track: TrackKind,
+    /// Salida de audio del Himnario (independiente de la de Windows).
+    pub output: OutputPreference,
 }
 
 impl Default for AudioSettings {
@@ -38,6 +41,7 @@ impl Default for AudioSettings {
             volume: 0.8,
             default_track: DefaultTrack::Vocal,
             last_track: TrackKind::Vocal,
+            output: OutputPreference::System,
         }
     }
 }
@@ -334,6 +338,12 @@ impl Settings {
             self.language = "es".into();
         }
         self.audio.volume = clamp_f32(self.audio.volume, 0.0, 1.0, 0.8);
+        if let OutputPreference::Device { id, name } = &self.audio.output {
+            let valid = |value: &str| !value.trim().is_empty() && value.len() <= 512;
+            if !valid(id) || !valid(name) {
+                self.audio.output = OutputPreference::System;
+            }
+        }
         let a = &mut self.appearance;
         a.font_weight = a.font_weight.clamp(300, 900);
         a.max_font_size = clamp_f32(a.max_font_size, 0.03, 0.2, defaults.max_font_size);

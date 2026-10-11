@@ -62,6 +62,8 @@ function playback(patch: Partial<PlaybackState> = {}): PlaybackState {
     lyricsHidden: false,
     cue: null,
     audioOutput: true,
+    audioDevice: "Simulada",
+    audioMissing: null,
     notice: null,
     selectedTrack: "vocal",
     ...patch,

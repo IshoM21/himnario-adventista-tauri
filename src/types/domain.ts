@@ -134,6 +134,10 @@ export interface PlaybackState {
   lyricsHidden: boolean;
   cue: HymnRef | null;
   audioOutput: boolean;
+  /** Dispositivo por el que se reproduce ahora. */
+  audioDevice: string | null;
+  /** Salida configurada que no está disponible (sin audio hasta que vuelva). */
+  audioMissing: string | null;
   notice: string | null;
   /** Pista elegida (pegajosa) para los himnos que se pongan al aire. */
   selectedTrack: TrackKind;
@@ -216,7 +220,7 @@ export interface Settings {
   language: string;
   theme: Theme;
   ui: { compact: boolean; lyricsSearch: boolean; alwaysOnTopCompact: boolean };
-  audio: { volume: number; defaultTrack: DefaultTrack; lastTrack: TrackKind };
+  audio: { volume: number; defaultTrack: DefaultTrack; lastTrack: TrackKind; output: OutputPreference };
   projection: { monitor: MonitorRef | null; presentOnStart: boolean; monitorPromptAnswered: boolean };
   appearance: AppearanceSettings;
   operator: {
@@ -248,4 +252,17 @@ export interface Bootstrap {
 export interface AppError {
   code: string;
   message: string;
+}
+
+/** Salida de audio del Himnario (independiente de la predeterminada del sistema). */
+export type OutputPreference = { mode: "system" } | { mode: "device"; id: string; name: string };
+
+export interface OutputDevice {
+  id: string;
+  name: string;
+}
+
+export interface AudioDevices {
+  devices: OutputDevice[];
+  systemDefault: OutputDevice | null;
 }

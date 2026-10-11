@@ -6,6 +6,7 @@
 //! que la letra cambie a tiempo. Detenido, solo se emite cuando algo cambia.
 
 use super::session::{PlaybackSnapshot, Status};
+use crate::audio::{OutputDevice, OutputPreference};
 use crate::events;
 use crate::state::{lock, AppState};
 use std::{
@@ -18,7 +19,11 @@ const PROGRESS_INTERVAL: Duration = Duration::from_millis(250);
 const IDLE_INTERVAL: Duration = Duration::from_millis(500);
 /// Pequeño margen tras un límite de pantalla para leer la posición ya pasada.
 const BOUNDARY_MARGIN: Duration = Duration::from_millis(4);
-const OUTPUT_RETRY_INTERVAL: Duration = Duration::from_secs(3);
+/// Revisión de la salida de audio: recuperación de la salida configurada y,
+/// en modo "predeterminada del sistema", cambios del predeterminado. cpal
+/// avisa la pérdida del dispositivo abierto, pero no los cambios del
+/// predeterminado de Windows, así que estos se consultan (es barato).
+const OUTPUT_CHECK_INTERVAL: Duration = Duration::from_secs(2);
 
 pub fn publish(app: &AppHandle, snapshot: &PlaybackSnapshot) {
     if let Err(error) = app.emit(events::PLAYBACK, snapshot) {
@@ -41,19 +46,39 @@ pub fn spawn_ticker(app: AppHandle) {
     }
 }
 
+/// El dispositivo fijo apareció con otro identificador (p. ej. otro puerto
+/// USB): se guarda el nuevo para que la próxima vez se encuentre directo.
+fn remember_rebound_device(app: &AppHandle, state: &AppState, device: OutputDevice) {
+    let result = state.update_settings(|settings| {
+        if let OutputPreference::Device { id, name } = &mut settings.audio.output {
+            *id = device.id.clone();
+            *name = device.name.clone();
+        }
+    });
+    match result {
+        Ok(saved) => {
+            let _ = app.emit(events::SETTINGS, &saved);
+        }
+        Err(error) => log::warn!("[AUDIO] No se pudo guardar el nuevo identificador: {}", error.message),
+    }
+}
+
 fn run(app: AppHandle) {
-    let mut last_output_retry = Instant::now();
+    let mut last_output_check = Instant::now();
     loop {
         let state = app.state::<AppState>();
-        let (snapshot, until_change) = {
+        let (snapshot, until_change, rebind) = {
             let mut session = state.session();
             let until_change = session.tick();
-            if !session.output_available() && last_output_retry.elapsed() >= OUTPUT_RETRY_INTERVAL {
-                last_output_retry = Instant::now();
-                session.try_recover_output();
+            if last_output_check.elapsed() >= OUTPUT_CHECK_INTERVAL {
+                last_output_check = Instant::now();
+                session.maintain_output();
             }
-            (session.snapshot(), until_change)
+            (session.snapshot(), until_change, session.take_output_rebind())
         };
+        if let Some(device) = rebind {
+            remember_rebound_device(&app, &state, device);
+        }
         let changed = lock(&state.last_published)
             .as_ref()
             .is_none_or(|last| !last.same_discrete_state(&snapshot));

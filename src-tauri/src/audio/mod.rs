@@ -2,15 +2,28 @@
 //! [`AudioBackend`]; la implementación real usa rodio (validado en el POC) y
 //! las pruebas usan un backend simulado sin hardware de sonido.
 
+pub mod devices;
 mod rodio_backend;
 
+pub use devices::{OutputDevice, OutputPreference};
 pub use rodio_backend::RodioBackend;
 
 use std::path::Path;
 
+/// Qué salida suena ahora, o cuál falta.
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
+pub struct OutputStatus {
+    /// Nombre del dispositivo por el que se reproduce.
+    pub active: Option<String>,
+    /// Salida configurada que no está disponible (sin audio hasta que vuelva).
+    pub missing: Option<String>,
+}
+
 pub trait AudioBackend: Send {
     /// Indica si existe una salida de audio utilizable.
     fn output_available(&self) -> bool;
+
+    fn output_status(&self) -> OutputStatus;
 
     /// Abre y decodifica por adelantado una pista, sin reproducirla.
     /// Un `load` posterior de la misma ruta reutiliza este trabajo.
@@ -34,15 +47,27 @@ pub trait AudioBackend: Send {
 
     fn set_volume(&mut self, volume: f32);
 
-    /// Si la salida de audio falló (p. ej. se desconectaron los altavoces),
-    /// intenta reabrirla y reconstruir la pista en `position`. Devuelve `true`
-    /// si hubo recuperación.
-    fn recover(&mut self, position: f64, playing: bool) -> bool;
+    /// Revisión periódica de la salida: si falló, reintenta abrir la MISMA
+    /// salida configurada; en modo "predeterminada del sistema", además sigue
+    /// los cambios del predeterminado. Al cambiar de salida reconstruye la
+    /// pista en `position`. Devuelve `true` si cambió la salida.
+    fn maintain(&mut self, position: f64, playing: bool) -> bool;
+
+    /// Cambio manual desde Configuración. Si la nueva salida no abre, queda en
+    /// silencio (nunca sigue por la anterior) y `maintain` la reintenta.
+    fn set_output(&mut self, preference: OutputPreference, position: f64, playing: bool) -> bool;
+
+    /// Dispositivo fijo reencontrado con otro identificador desde la última
+    /// llamada (hay que actualizar la configuración guardada).
+    fn take_rebind(&mut self) -> Option<OutputDevice>;
+
+    /// Tono corto por la salida actual.
+    fn test_tone(&mut self) -> Result<(), String>;
 }
 
 #[cfg(test)]
 pub mod fake {
-    use super::AudioBackend;
+    use super::{AudioBackend, OutputDevice, OutputPreference, OutputStatus};
     use std::path::{Path, PathBuf};
 
     /// Backend simulado: el tiempo avanza solo cuando la prueba lo indica.
@@ -56,6 +81,8 @@ pub mod fake {
         pub volume: f32,
         pub fail_loads: bool,
         pub loads: usize,
+        pub output: Option<OutputPreference>,
+        pub tones: usize,
     }
 
     impl FakeBackend {
@@ -116,8 +143,22 @@ pub mod fake {
         fn set_volume(&mut self, volume: f32) {
             self.volume = volume;
         }
-        fn recover(&mut self, _position: f64, _playing: bool) -> bool {
+        fn output_status(&self) -> OutputStatus {
+            OutputStatus { active: Some("Simulada".into()), missing: None }
+        }
+        fn maintain(&mut self, _position: f64, _playing: bool) -> bool {
             false
+        }
+        fn set_output(&mut self, preference: OutputPreference, _position: f64, _playing: bool) -> bool {
+            self.output = Some(preference);
+            true
+        }
+        fn take_rebind(&mut self) -> Option<OutputDevice> {
+            None
+        }
+        fn test_tone(&mut self) -> Result<(), String> {
+            self.tones += 1;
+            Ok(())
         }
     }
 }

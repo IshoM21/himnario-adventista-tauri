@@ -27,7 +27,7 @@
 
 | Módulo | Responsabilidad |
 |---|---|
-| `audio/` | Trait `AudioBackend` y `RodioBackend` (rodio 0.22 + symphonia: AAC/M4A y MP3 sin recodificar). El dispositivo cpal vive en su propio hilo (no es `Send` en todas las plataformas); se conserva solo el `Mixer`. Si la salida falla, se reabre y se reconstruye la pista en la misma posición. |
+| `audio/` | Trait `AudioBackend` y `RodioBackend` (rodio 0.22 + symphonia: AAC/M4A y MP3 sin recodificar). El dispositivo cpal vive en su propio hilo (no es `Send` en todas las plataformas); se conserva solo el `Mixer`. Solo se abre la salida elegida (`audio.output`: predeterminada del sistema o un dispositivo fijo por ID, reencontrado por nombre si cambia); nunca se recorre la lista buscando otra (`open_default_sink` de rodio está prohibido). `devices::choose` decide de forma pura y probada. Si la salida falla, se reabre la misma y se reconstruye la pista en la misma posición; en modo sistema se consulta el predeterminado cada 2 s. Todo se registra con el prefijo `[AUDIO]`. |
 | `playback/session.rs` | Máquina de estados: `idle → stopped → playing ⇄ paused → ended`, pista activa, espera (cue), negro, letra oculta, volumen, avisos. Probada con un backend simulado. |
 | `playback/slides.rs` | Funciones puras: pantalla en una posición, retorno a portada al terminar, tiempo al próximo cambio. |
 | `playback/publisher.rs` | Hilo que detecta el fin del audio y emite el estado: cada 250 ms mientras suena, despertando justo en cada límite de pantalla (+4 ms). Detenido, emite solo cambios. Los comandos lo despiertan con `unpark`. |

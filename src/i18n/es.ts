@@ -64,6 +64,20 @@ export const es = {
   statusPaused: "En pausa",
   statusEnded: "Terminado",
   noAudioOutput: "No hay salida de audio. Revise los altavoces; se reintentará automáticamente.",
+  audioMissing: "Sin audio: la salida «{device}» no está disponible. Se reintentará automáticamente.",
+  audioChooseOutput: "Elegir salida",
+  audioOutput: "Salida de audio",
+  audioOutputSystem: "Predeterminada del sistema",
+  audioOutputSystemNamed: "Predeterminada del sistema ({name})",
+  audioOutputDisconnected: "{name} (no conectado)",
+  audioOutputHint:
+    "Puede elegir una salida distinta a la del sistema: el Himnario la usará siempre, aunque cambie la predeterminada o se conecte un proyector. Nunca cambia a otra salida por su cuenta.",
+  audioOutputRefresh: "Actualizar lista",
+  audioOutputTest: "Probar salida",
+  audioOutputTestTitle: "Suena un tono corto por la salida actual",
+  audioOutputTestBusy: "Pause o detenga el himno para probar la salida",
+  audioOutputLoading: "Buscando salidas…",
+  audioPlayingThrough: "Sonando por: {device}",
   trackUnavailable: "Pista no disponible en este himno",
 
   // Presentación
